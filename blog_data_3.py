@@ -126,7 +126,7 @@ Because lightning strikes and grid transients in Collier County degrade delicate
   <h3>Reset Didn't Work? Get Fast Diagnostic Service</h3>
   <p>If resetting your circuit breaker or thermostat failed to restore cold air, our certified technicians will test your electrical circuits, check contactors, and identify the root cause today.</p>
   <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-    <a href="tel:2391234567" class="t6-btn t6-btn-primary">Call (239)1234567</a>
+    <a href="tel:+12396861066" class="t6-btn t6-btn-primary">Call (239) 686-1066</a>
     <a href="../contact.html" class="t6-btn t6-btn-ghost-on-ink">Book Technician Visit</a>
   </div>
 </div>
@@ -278,7 +278,7 @@ Once the leak is located, you have two options depending on the age and conditio
   <h3>Suspect a Refrigerant Leak in Your Naples Home?</h3>
   <p>Our EPA-certified technicians provide accurate electronic leak detection, nitrogen pressure testing, and precision R-410A recharging with guaranteed workmanship.</p>
   <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-    <a href="tel:2391234567" class="t6-btn t6-btn-primary">Call (239)1234567</a>
+    <a href="tel:+12396861066" class="t6-btn t6-btn-primary">Call (239) 686-1066</a>
     <a href="../contact.html" class="t6-btn t6-btn-ghost-on-ink">Schedule a Leak Check</a>
   </div>
 </div>
@@ -431,7 +431,7 @@ During a professional 24-point tune-up with AC Repair Naples Fl, our certified t
   <h3>Ready for Reliable, Worry-Free Cooling All Year?</h3>
   <p>Protect your investment, lower your electric bills, and prevent costly breakdowns with our comprehensive 24-point seasonal AC tune-up in Naples, FL.</p>
   <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-    <a href="tel:2391234567" class="t6-btn t6-btn-primary">Call (239)1234567</a>
+    <a href="tel:+12396861066" class="t6-btn t6-btn-primary">Call (239) 686-1066</a>
     <a href="../ac-maintenance-tune-up.html" class="t6-btn t6-btn-ghost-on-ink">Learn About Our Tune-Up</a>
   </div>
 </div>
@@ -588,7 +588,7 @@ Yes. Refrigerant vapor carries oil that lubricates the compressor motor windings
   <h3>Don't Suffer in the Florida Heat – Call Us Today!</h3>
   <p>Our licensed, bonded Naples technicians are standing by with 24/7 emergency response, upfront pricing, and guaranteed cooling repairs across Collier County.</p>
   <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-    <a href="tel:2391234567" class="t6-btn t6-btn-primary">Call (239)1234567</a>
+    <a href="tel:+12396861066" class="t6-btn t6-btn-primary">Call (239) 686-1066</a>
     <a href="../contact.html" class="t6-btn t6-btn-ghost-on-ink">Book Your Service Visit</a>
   </div>
 </div>

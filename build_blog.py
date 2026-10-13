@@ -260,7 +260,7 @@ def get_mobile_drawer(depth=0):
             <li><a href="{p}hvac-park-shore.html" class="t6-link-grow t6-link-grow--on-ink">Park Shore</a></li>
           </ul>
         </details>
-        <a href="tel:2391234567" class="t6-btn t6-btn-primary" style="margin-top:1.5rem;width:100%;">Call (239)1234567</a>
+        <a href="tel:+12396861066" class="t6-btn t6-btn-primary" style="margin-top:1.5rem;width:100%;">Call (239) 686-1066</a>
       </div>
     </div>"""
 
@@ -307,8 +307,8 @@ def get_footer(depth=0):
           <p style="color:#fff;font-family:var(--font-display);font-weight:600;font-size:1rem;margin:0 0 1rem;">Contact</p>
           <hr class="t6-hr-green" style="margin:0 0 1rem;" />
           <div style="color:rgba(255,255,255,.85);font-size:.92rem;line-height:1.7;">
-            <p style="margin:0 0 .4rem;"><a href="tel:2391234567"
-                style="color:#fff;text-decoration:none;font-weight:600;">(239)1234567</a></p>
+            <p style="margin:0 0 .4rem;"><a href="tel:+12396861066"
+                style="color:#fff;text-decoration:none;font-weight:600;">(239) 686-1066</a></p>
             <p style="margin:0 0 .4rem;"><a href="https://maps.google.com/?q=4389+Enterprise+Avenue,+Naples,+FL+34104" target="_blank" rel="noopener noreferrer" style="color:rgba(255,255,255,.85);text-decoration:none;" title="View Premium AC Solutions on Google Maps">4389 Enterprise Avenue, Naples, FL 34104</a></p>
             <p style="margin:0;">Mon&ndash;Fri: 7AM &ndash; 7PM<br />Sat: 8AM &ndash; 4PM<br />24/7 Emergency</p>
           </div>
@@ -357,13 +357,13 @@ def get_footer(depth=0):
   </footer>
 
   <div class="t6-mobile-cta" role="region" aria-label="Mobile call to action">
-    <a href="tel:2391234567" class="t6-mobile-cta__call">
+    <a href="tel:+12396861066" class="t6-mobile-cta__call">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
         stroke-linecap="round" stroke-linejoin="round">
         <path
           d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
       </svg>
-      Call (239)1234567
+      Call (239) 686-1066
     </a>
     <a href="{p}contact.html" class="t6-mobile-cta__quote">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
@@ -377,7 +377,7 @@ def get_footer(depth=0):
     </a>
   </div>
   <div class="t6-rail" role="region" aria-label="Quick contact rail">
-    <a href="tel:2391234567">
+    <a href="tel:+12396861066">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
         stroke-linecap="round" stroke-linejoin="round">
         <path
@@ -484,7 +484,7 @@ def render_blog_listing_html(depth=0):
             "@type": "LocalBusiness",
             "@id": "https://acrepairnaplesfl.com/#localbusiness",
             "name": "Premium AC Solutions",
-            "telephone": "(239)1234567",
+            "telephone": "+12396861066",
             "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "4389 Enterprise Avenue",
@@ -565,7 +565,7 @@ def render_blog_listing_html(depth=0):
 {get_desktop_nav(depth)}
 
       <div style="display:flex;align-items:center;gap:.85rem;">
-        <a class="t6-btn t6-btn-primary" href="tel:2391234567">Get Estimate</a>
+        <a class="t6-btn t6-btn-primary" href="tel:+12396861066">Get Estimate</a>
         <button id="t6NavToggle" aria-label="Open menu" aria-expanded="false" aria-controls="t6Drawer"
           class="t6-nav-toggle"
           style="background:transparent;border:1px solid var(--t6-hairline);color:var(--t6-ink);width:42px;height:42px;border-radius:8px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;">
@@ -662,7 +662,7 @@ def render_blog_listing_html(depth=0):
           From frozen coils and clogged condensate lines to emergency compressor repairs, our certified Naples technicians arrive with same-day diagnostic service and upfront pricing.
         </p>
         <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-          <a href="tel:2391234567" class="t6-btn t6-btn-primary">Call (239)1234567</a>
+          <a href="tel:+12396861066" class="t6-btn t6-btn-primary">Call (239) 686-1066</a>
           <a href="{p}contact.html" class="t6-btn t6-btn-ghost-on-ink">Request Service Online</a>
         </div>
       </div>
@@ -729,7 +729,7 @@ def render_article_page_html(art):
             "@type": "LocalBusiness",
             "@id": "https://acrepairnaplesfl.com/#localbusiness",
             "name": "Premium AC Solutions",
-            "telephone": "(239)1234567",
+            "telephone": "+12396861066",
             "url": "https://acrepairnaplesfl.com/",
             "address": {
                 "@type": "PostalAddress",
@@ -833,7 +833,7 @@ def render_article_page_html(art):
 {get_desktop_nav(depth=1)}
 
       <div style="display:flex;align-items:center;gap:.85rem;">
-        <a class="t6-btn t6-btn-primary" href="tel:2391234567">Get Estimate</a>
+        <a class="t6-btn t6-btn-primary" href="tel:+12396861066">Get Estimate</a>
         <button id="t6NavToggle" aria-label="Open menu" aria-expanded="false" aria-controls="t6Drawer"
           class="t6-nav-toggle"
           style="background:transparent;border:1px solid var(--t6-hairline);color:var(--t6-ink);width:42px;height:42px;border-radius:8px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;">
@@ -964,7 +964,7 @@ def render_article_page_html(art):
           <p style="color:rgba(255,255,255,.9);margin:0;font-size:1rem;">We offer same-day diagnostics, upfront estimates, and 24/7 emergency response.</p>
         </div>
         <div style="display:flex;gap:.85rem;flex-wrap:wrap;">
-          <a href="tel:2391234567" class="t6-btn t6-btn-on-green" style="background:#fff;color:var(--t6-ink);">Call (239)1234567</a>
+          <a href="tel:+12396861066" class="t6-btn t6-btn-on-green" style="background:#fff;color:var(--t6-ink);">Call (239) 686-1066</a>
           <a href="../contact.html" class="t6-btn t6-btn-ghost-on-ink" style="border-color:#fff;color:#fff;">Contact Us Online</a>
         </div>
       </div>

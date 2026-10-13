@@ -108,7 +108,7 @@ Many homeowners think that leaving an air conditioner running while it blows war
   <h3>Need Immediate Help with Warm Air from Your AC?</h3>
   <p>Our licensed, bonded technicians arrive in fully stocked service vehicles equipped with digital manifold gauges, diagnostic meters, and genuine OEM replacement parts to restore ice-cold air today.</p>
   <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-    <a href="tel:2391234567" class="t6-btn t6-btn-primary">Call (239)1234567</a>
+    <a href="tel:+12396861066" class="t6-btn t6-btn-primary">Call (239) 686-1066</a>
     <a href="../contact.html" class="t6-btn t6-btn-ghost-on-ink">Schedule Service Online</a>
   </div>
 </div>
@@ -394,7 +394,7 @@ If you discover active water leakage from your air conditioner, follow this imme
   <h3>Experiencing an Active AC Water Leak in Naples?</h3>
   <p>Water leaks require fast response to prevent structural water damage and microbial growth. Our emergency response team arrives equipped to clear clogs, repair pans, and protect your home.</p>
   <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-    <a href="tel:2391234567" class="t6-btn t6-btn-primary">Call (239)1234567</a>
+    <a href="tel:+12396861066" class="t6-btn t6-btn-primary">Call (239) 686-1066</a>
     <a href="../contact.html" class="t6-btn t6-btn-ghost-on-ink">Book Emergency Service</a>
   </div>
 </div>

@@ -126,7 +126,7 @@ The TXV regulates the exact rate at which refrigerant expands into the evaporato
   <h3>Frozen AC Won't Thaw or Freezes Right Back Up?</h3>
   <p>Our licensed technicians carry ultrasonic leak detectors, nitrogen pressure rigs, and genuine OEM parts to pinpoint the root cause of coil freeze-ups and restore reliable cooling across Naples.</p>
   <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-    <a href="tel:2391234567" class="t6-btn t6-btn-primary">Call (239)1234567</a>
+    <a href="tel:+12396861066" class="t6-btn t6-btn-primary">Call (239) 686-1066</a>
     <a href="../contact.html" class="t6-btn t6-btn-ghost-on-ink">Request Service Online</a>
   </div>
 </div>
@@ -259,7 +259,7 @@ Our technicians use regulated high-pressure nitrogen gas blowouts to instantly s
   <h3>Stubborn Drain Clog Shutting Down Your AC?</h3>
   <p>Don't risk ceiling water damage or mold growth. Our technicians provide fast, mess-free nitrogen drain blowouts and complete float switch inspections across Naples.</p>
   <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-    <a href="tel:2391234567" class="t6-btn t6-btn-primary">Call (239)1234567</a>
+    <a href="tel:+12396861066" class="t6-btn t6-btn-primary">Call (239) 686-1066</a>
     <a href="../contact.html" class="t6-btn t6-btn-ghost-on-ink">Schedule Drain Service</a>
   </div>
 </div>
@@ -431,7 +431,7 @@ Diagnosing HVAC noise requires specialized equipment and deep diagnostic experie
   <h3>Is Your AC Making Strange or Alarming Noises?</h3>
   <p>Don't wait for a noisy component to destroy your compressor. Our certified Naples technicians pinpoint mechanical issues quickly and restore quiet, peaceful comfort.</p>
   <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-    <a href="tel:2391234567" class="t6-btn t6-btn-primary">Call (239)1234567</a>
+    <a href="tel:+12396861066" class="t6-btn t6-btn-primary">Call (239) 686-1066</a>
     <a href="../contact.html" class="t6-btn t6-btn-ghost-on-ink">Schedule a Diagnostic Visit</a>
   </div>
 </div>
