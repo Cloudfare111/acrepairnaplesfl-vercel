@@ -1,107 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-684T43FDEM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-684T43FDEM');
   </script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="google-site-verification" content="6yi7cacoszw7clEa9mq7gAq4vWRYRv0KIjPzy5me_Tg" />
-    <meta name="robots" content="noindex, follow" />
-    <title>Page not found | Premium AC Solutions</title>
-    <style>
-      *{box-sizing:border-box}
-      body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:#0f172a;color:#e2e8f0;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:2rem}
-      .wrap{text-align:center;max-width:560px}
-      .code{font-size:6rem;font-weight:800;line-height:1;margin:0;color:#38bdf8}
-      h1{font-size:1.6rem;margin:1rem 0 .75rem}
-      p{font-size:1.05rem;line-height:1.7;color:#cbd5e1;margin:0 0 1.5rem}
-      .brand{font-size:.95rem;color:#94a3b8;margin:0 0 .5rem;text-transform:uppercase;letter-spacing:.08em}
-      .actions{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap}
-      .btn{display:inline-block;padding:.85rem 1.6rem;border-radius:.5rem;font-weight:600;text-decoration:none;transition:opacity .15s}
-      .btn:hover{opacity:.9}
-      .primary{background:#38bdf8;color:#0f172a}
-      .ghost{border:1px solid #475569;color:#e2e8f0}
-    </style>
-  <!--rl-leads--><script>window.__RL_LEADS={siteId:"6abd20e10500e09d464a41ff",apiBase:"https://ranklocal.cc",turnstileSiteKey:""};</script><script>
-(function(){
-  function cfg(){
-    var c=window.__RL_LEADS||{};
-    var base=String(c.apiBase||''); var siteId=String(c.siteId||'');
-    if(base.indexOf('http')!==0) return null;
-    if(!siteId||siteId.indexOf('{{')!==-1) return null;
-    var key=String(c.turnstileSiteKey||''); if(key.indexOf('{{')!==-1) key='';
-    while(base.length&&base.charAt(base.length-1)==='/') base=base.slice(0,-1);
-    return {apiBase:base,siteId:siteId,ts:key};
-  }
-  var C=cfg(); if(!C) return;
-  var TS={loading:false,loaded:false,q:[]};
-  function loadTs(cb){
-    if(TS.loaded&&window.turnstile) return cb();
-    TS.q.push(cb); if(TS.loading) return; TS.loading=true;
-    window.__rlTsReady=function(){TS.loaded=true;TS.q.forEach(function(f){f();});TS.q=[];};
-    var s=document.createElement('script');
-    s.src='https://challenges.cloudflare.com/turnstile/v0/api.js?onload=__rlTsReady&render=explicit';
-    s.async=true; s.defer=true; document.head.appendChild(s);
-  }
-  function mountTs(form){
-    if(!C.ts||form.__rlTs) return; form.__rlTs=true;
-    var box=document.createElement('div'); box.className='rl-turnstile'; box.style.margin='10px 0';
-    var sb=form.querySelector('button[type=submit],input[type=submit]');
-    if(sb&&sb.parentNode) sb.parentNode.insertBefore(box,sb); else form.appendChild(box);
-    loadTs(function(){ try{ window.turnstile.render(box,{sitekey:C.ts,size:'flexible'}); }catch(e){} });
-  }
-  function ensureHp(form){
-    if(form.querySelector('[name=_hp]')) return;
-    var i=document.createElement('input'); i.type='text'; i.name='_hp'; i.tabIndex=-1;
-    i.setAttribute('autocomplete','off'); i.setAttribute('aria-hidden','true');
-    i.style.cssText='position:absolute;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none';
-    form.appendChild(i);
-  }
-  function setup(){
-    var forms=document.querySelectorAll('form[data-rl-lead]');
-    for(var i=0;i<forms.length;i++){ (function(f){
-      ensureHp(f);
-      if(C.ts){ f.addEventListener('focusin',function(){mountTs(f);},{once:true}); }
-    })(forms[i]); }
-  }
-  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',setup); else setup();
-  document.addEventListener('submit',function(e){
-    var f=e.target;
-    if(!f||!f.matches||!f.matches('form[data-rl-lead]')) return;
-    var hp=f.querySelector('[name=_hp]'); if(hp&&hp.value) return;
-    var data={}; var els=f.querySelectorAll('input,textarea,select');
-    for(var i=0;i<els.length;i++){ var el=els[i]; var n=el.name;
-      if(!n||n==='_hp'||n==='cf-turnstile-response') continue; data[n]=el.value; }
-    data.pageUrl=window.location.href;
-    var tok=f.querySelector('[name=cf-turnstile-response]'); if(tok&&tok.value) data.turnstileToken=tok.value;
-    try{ fetch(C.apiBase+'/api/leads/'+encodeURIComponent(C.siteId),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data),keepalive:true}).catch(function(){}); }catch(_e){}
-  },true);
-})();
-</script>
-      <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, follow" />
+  <title>Page Not Found (404) | Premium AC Solutions Naples, FL</title>
+  
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png" />
   <link rel="shortcut icon" href="assets/images/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png" />
   <link rel="manifest" href="site.webmanifest" />
 
-  </head>
-  <body>
-    <main class="wrap">
-      <p class="brand">Premium AC Solutions</p>
-      <p class="code">404</p>
-      <h1>Page not found</h1>
-      <p>The page you&rsquo;re looking for doesn&rsquo;t exist or has moved. Let&rsquo;s get you back on track.</p>
-      <div class="actions">
-        <a class="btn primary" href="index.html">Back to homepage</a>
-        <a class="btn ghost" href="tel:+12396861066">Call (239) 686-1066</a>
-      </div>
-    </main>
-  </body>
+  <!-- Global Stylesheet -->
+  <link rel="stylesheet" href="assets/global.css" />
+
+  <style>
+    body {
+      background: #071320;
+      color: #f8fafc;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.5rem;
+      font-family: var(--font-sans);
+      margin: 0;
+    }
+    .error-container {
+      max-width: 680px;
+      width: 100%;
+      text-align: center;
+      background: rgba(15, 36, 56, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 3.5rem 2.5rem;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(12px);
+    }
+    .error-badge {
+      display: inline-block;
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #38bdf8;
+      background: rgba(56, 189, 248, 0.15);
+      padding: 0.35rem 0.85rem;
+      border-radius: 50px;
+      margin-bottom: 1.25rem;
+    }
+    .error-code {
+      font-size: clamp(4.5rem, 10vw, 7.5rem);
+      font-weight: 900;
+      line-height: 1;
+      margin: 0;
+      color: #38bdf8;
+      text-shadow: 0 4px 20px rgba(56, 189, 248, 0.3);
+    }
+    .error-title {
+      font-size: clamp(1.4rem, 3vw, 2rem);
+      font-weight: 800;
+      color: #ffffff;
+      margin: 1rem 0 0.75rem;
+    }
+    .error-desc {
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: #94a3b8;
+      margin: 0 0 2.25rem;
+    }
+    .quick-links-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.85rem;
+      margin-bottom: 2.25rem;
+      text-align: left;
+    }
+    .quick-link-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      padding: 0.85rem 1rem;
+      text-decoration: none;
+      color: #f1f5f9;
+      transition: all 0.2s ease;
+      display: block;
+    }
+    .quick-link-card:hover {
+      background: rgba(56, 189, 248, 0.15);
+      border-color: #38bdf8;
+      transform: translateY(-2px);
+    }
+    .quick-link-card strong {
+      display: block;
+      font-size: 0.95rem;
+      color: #ffffff;
+      margin-bottom: 0.2rem;
+    }
+    .quick-link-card span {
+      font-size: 0.8rem;
+      color: #94a3b8;
+    }
+    @media (max-width: 580px) {
+      .quick-links-grid {
+        grid-template-columns: 1fr;
+      }
+      .error-container {
+        padding: 2.5rem 1.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="error-container">
+    <a href="index.html" style="display:inline-block;margin-bottom:1.5rem;" aria-label="Premium AC Solutions">
+      <img src="assets/images/logo-white.svg" alt="Premium AC Solutions Logo" width="220" height="48" style="height:44px;width:auto;" />
+    </a>
+    
+    <div><span class="error-badge">Error 404</span></div>
+    <div class="error-code">404</div>
+    <h1 class="error-title">Page Not Found in Naples, FL</h1>
+    <p class="error-desc">
+      The page you requested doesn't exist or has moved. Let's get your cooling back on schedule with our core HVAC services:
+    </p>
+
+    <div class="quick-links-grid">
+      <a href="ac-not-cooling.html" class="quick-link-card">
+        <strong>Emergency AC Repair</strong>
+        <span>Troubleshoot warm air, frozen coils &amp; leaks</span>
+      </a>
+      <a href="ac-maintenance-tune-up.html" class="quick-link-card">
+        <strong>Seasonal Maintenance</strong>
+        <span>24-point coastal HVAC inspection &amp; tune-up</span>
+      </a>
+      <a href="hvac-system-replacement.html" class="quick-link-card">
+        <strong>System Replacement</strong>
+        <span>High-efficiency variable-speed heat pumps</span>
+      </a>
+      <a href="locations.html" class="quick-link-card">
+        <strong>Collier County Service Areas</strong>
+        <span>Naples, North Naples, Port Royal &amp; Marco</span>
+      </a>
+    </div>
+
+    <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+      <a href="index.html" class="btn btn-outline" style="border-color:rgba(255,255,255,0.25);color:#fff;">
+        &larr; Back to Homepage
+      </a>
+      <a href="tel:+12396861066" class="btn btn-primary">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+        <span>Call (239) 686-1066</span>
+      </a>
+    </div>
+  </div>
+</body>
+
 </html>

@@ -65,7 +65,7 @@ Airflow restriction is responsible for roughly 75% of all frozen evaporator call
 
 <h3>2. Low Refrigerant Charge from a Pressure Leak</h3>
 <p>
-When an HVAC system develops a pinhole leak in its copper tubing or coil joints, the total volume of refrigerant in the system declines. Less refrigerant means lower operating pressure throughout the evaporator. As pressure falls below design specifications (typically around 118 PSI for R-410A), coil temperatures drop from a safe 42°F down to 28°F or lower. Condensing water freezes immediately upon contact with the metal fins. If your unit freezes even with a brand new, clean filter, you almost certainly have a <a href="../refrigerant-freon-recharge.html">refrigerant leak requiring electronic leak detection</a>.
+When an HVAC system develops a pinhole leak in its copper tubing or coil joints, the total volume of refrigerant in the system declines. Less refrigerant means lower operating pressure throughout the evaporator. As pressure falls below design specifications (typically around 118 PSI for R-410A), coil temperatures drop from a safe 42°F down to 28°F or lower. Condensing water freezes immediately upon contact with the metal fins. If your unit freezes even with a brand new, clean filter, you almost certainly have a <a href="../ac-not-cooling.html">refrigerant leak requiring electronic leak detection</a>.
 </p>
 
 <h3>3. Blower Motor or Run Capacitor Failure</h3>
@@ -167,7 +167,7 @@ A frozen air conditioner in Naples is always symptomatic of either restricted ai
         "meta_title": "Clogged AC Drain Line? What to Do Step-by-Step | Naples, FL",
         "meta_desc": "Got a clogged AC condensate drain line in Naples, FL? Learn how to safely unclog it with vinegar or a wet/dry vac, plus tips to prevent messy water damage.",
         "excerpt": "A clogged AC drain line is the #1 service call in Southwest Florida. Learn how to identify the clog, safely clear the blockage, and protect your home from water damage.",
-        "primary_service": "condensate-drain-clog.html",
+        "primary_service": "ac-not-cooling.html",
         "primary_service_anchor": "professional condensate drain clearing services",
         "content_html": """
 <p class="lead" style="font-size:1.18rem;line-height:1.75;color:var(--t6-ink);font-weight:500;">
@@ -278,7 +278,7 @@ If your thermostat screen is blank or your AC suddenly stopped running while the
 
 <h2>Conclusion</h2>
 <p>
-A clogged AC drain line is an urgent annoyance, but fast action with safe clearing methods will keep your home dry and your cooling restored. For stubborn clogs or recurring drain backups, reach out to AC Repair Naples Fl for expert <a href="../condensate-drain-clog.html">condensate drain clog repair in Naples, FL</a>.
+A clogged AC drain line is an urgent annoyance, but fast action with safe clearing methods will keep your home dry and your cooling restored. For stubborn clogs or recurring drain backups, reach out to AC Repair Naples Fl for expert <a href="../ac-not-cooling.html">condensate drain clog repair in Naples, FL</a>.
 </p>
 """
     },
@@ -295,7 +295,7 @@ A clogged AC drain line is an urgent annoyance, but fast action with safe cleari
         "meta_title": "Why Is My AC Making Noise? 6 Sounds Explained | Naples, FL",
         "meta_desc": "Squealing, buzzing, clanking, or hissing from your AC? Decode 6 common air conditioner noises and find out which sounds require an immediate emergency shutdown.",
         "excerpt": "A gentle hum of moving air is normal, but strange grinding, squealing, buzzing, or hissing sounds are your AC's cry for help. Here is how to decode what your air conditioner is trying to tell you.",
-        "primary_service": "compressor-valve-replacement.html",
+        "primary_service": "ac-not-cooling.html",
         "primary_service_anchor": "precision compressor valve and mechanical repair",
         "content_html": """
 <p class="lead" style="font-size:1.18rem;line-height:1.75;color:var(--t6-ink);font-weight:500;">
@@ -399,7 +399,7 @@ Hissing usually points directly toward the refrigeration lines or condensate dra
 <ul>
   <li><strong>Pinhole Refrigerant Leak:</strong> High-pressure refrigerant vapor escaping through a microscopic puncture in copper tubing or flare joints produces a steady hissing sound, often accompanied by weak cooling.</li>
   <li><strong>Bubbling / Gurgling in the Drain:</strong> If your condensate P-trap lacks a proper vent or running trap, negative air pressure inside the air handler pulls air backwards through the drain water, creating a rhythmic bubbling or slurping noise.</li>
-  <li><strong>Internal Metering Valve Restriction:</strong> When a thermostatic expansion valve (TXV) malfunctions, refrigerant cavitates through the restricted orifice, creating a loud hissing sound inside the air handler closet. Explore our <a href="../compressor-valve-replacement.html">compressor valve replacement options</a> for precision valve repairs.</li>
+  <li><strong>Internal Metering Valve Restriction:</strong> When a thermostatic expansion valve (TXV) malfunctions, refrigerant cavitates through the restricted orifice, creating a loud hissing sound inside the air handler closet. Explore our <a href="../ac-not-cooling.html">AC diagnostic and valve options</a> for precision repairs.</li>
 </ul>
 
 <h3>6. Pulsing Rattle or Vibration on Startup</h3>
@@ -450,7 +450,7 @@ In the vast majority of cases, yes! Most annoying noises stem from loose mountin
 
 <h2>Conclusion</h2>
 <p>
-Every sound your air conditioner makes has a distinct mechanical or electrical cause. By paying attention to changes in system acoustics and seeking prompt professional evaluation, you protect your system's lifespan and avoid costly emergency breakdowns. For trusted noise diagnostics, contact AC Repair Naples Fl for expert <a href="../compressor-valve-replacement.html">compressor valve and mechanical AC repair in Naples, FL</a>.
+Every sound your air conditioner makes has a distinct mechanical or electrical cause. By paying attention to changes in system acoustics and seeking prompt professional evaluation, you protect your system's lifespan and avoid costly emergency breakdowns. For trusted noise diagnostics, contact AC Repair Naples Fl for expert <a href="../ac-not-cooling.html">mechanical AC repair and diagnostics in Naples, FL</a>.
 </p>
 """
     }

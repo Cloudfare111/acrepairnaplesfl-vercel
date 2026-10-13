@@ -1,26 +1,46 @@
+# Canonical clean-URL permanent redirects
 /index.html / 301!
 /about.html /about 301!
-/ac-not-cooling.html /ac-not-cooling 301!
-/blog.html /blog 301!
-/condensate-drain-clog.html /condensate-drain-clog 301!
-/contact.html /contact 301!
-/hvac-aqualane-shores.html /hvac-aqualane-shores 301!
-/hvac-bayshore-arts-district.html /hvac-bayshore-arts-district 301!
-/hvac-royal-harbor.html /hvac-royal-harbor 301!
-/hvac-system-replacement.html /hvac-system-replacement 301!
-/locations.html /locations 301!
-/mini-split-repair.html /mini-split-repair 301!
-/privacy-policy.html /privacy-policy 301!
 /services.html /services 301!
-/window-ac-installation.html /window-ac-installation 301!
-/compressor-valve-replacement.html /compressor-valve-replacement 301!
-/package-unit-repair.html /package-unit-repair 301!
+/locations.html /locations 301!
+/contact.html /contact 301!
+/privacy-policy.html /privacy-policy 301!
+/blog.html /blog 301!
+
+# Retained Core Service Pages (clean URL redirects)
+/ac-not-cooling.html /ac-not-cooling 301!
 /ac-maintenance-tune-up.html /ac-maintenance-tune-up 301!
-/refrigerant-freon-recharge.html /refrigerant-freon-recharge 301!
-/hvac-port-royal.html /hvac-port-royal 301!
-/hvac-park-shore.html /hvac-park-shore 301!
+/hvac-system-replacement.html /hvac-system-replacement 301!
+
+# Removed Sub-Service Pages -> 301 to relevant retained services or service hub
+/condensate-drain-clog.html /ac-not-cooling 301!
+/condensate-drain-clog /ac-not-cooling 301!
+/compressor-valve-replacement.html /ac-not-cooling 301!
+/compressor-valve-replacement /ac-not-cooling 301!
+/refrigerant-freon-recharge.html /ac-not-cooling 301!
+/refrigerant-freon-recharge /ac-not-cooling 301!
+/window-ac-installation.html /hvac-system-replacement 301!
+/window-ac-installation /hvac-system-replacement 301!
+/mini-split-repair.html /services 301!
+/mini-split-repair /services 301!
+/package-unit-repair.html /services 301!
+/package-unit-repair /services 301!
+
+# Removed Neighborhood Sub-Pages -> 301 to Service Areas overview (/locations)
+/hvac-aqualane-shores.html /locations 301!
+/hvac-aqualane-shores /locations 301!
+/hvac-bayshore-arts-district.html /locations 301!
+/hvac-bayshore-arts-district /locations 301!
+/hvac-royal-harbor.html /locations 301!
+/hvac-royal-harbor /locations 301!
+/hvac-port-royal.html /locations 301!
+/hvac-port-royal /locations 301!
+/hvac-park-shore.html /locations 301!
+/hvac-park-shore /locations 301!
 /landmarks.html /locations 301!
 /landmarks /locations 301!
+
+# Blog Posts (clean URL redirects)
 /blog/ac-blowing-hot-air-naples-fl.html /blog/ac-blowing-hot-air-naples-fl 301!
 /blog/why-is-my-ac-not-blowing-cold-air.html /blog/why-is-my-ac-not-blowing-cold-air 301!
 /blog/why-is-my-air-conditioner-leaking.html /blog/why-is-my-air-conditioner-leaking 301!

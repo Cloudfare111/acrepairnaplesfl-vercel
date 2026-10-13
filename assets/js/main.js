@@ -1,10 +1,10 @@
 (function () {
   "use strict";
 
-  // ------- Mobile drawer -------
+  // ------- Mobile Navigation Drawer -------
   function initDrawer() {
-    var toggle = document.getElementById("t6NavToggle");
-    var drawer = document.getElementById("t6Drawer");
+    var toggle = document.getElementById("siteNavToggle") || document.getElementById("t6NavToggle");
+    var drawer = document.getElementById("siteDrawer") || document.getElementById("t6Drawer");
     if (!toggle || !drawer) return;
 
     toggle.addEventListener("click", function (e) {
@@ -32,15 +32,15 @@
     });
   }
 
-  // ------- Sticky CTA show/hide -------
+  // ------- Sticky Mobile CTA -------
   function initStickyCta() {
-    var bar = document.querySelector(".t6-mobile-cta");
+    var bar = document.querySelector(".mobile-sticky-cta") || document.querySelector(".t6-mobile-cta");
     if (!bar) return;
     bar.style.transition = "transform .25s ease";
+
     function check() {
       var y = window.scrollY;
-      // Hide when at the very top of the page (no need to interrupt hero).
-      if (y < 120) {
+      if (y < 100) {
         bar.style.transform = "translateY(100%)";
       } else {
         bar.style.transform = "translateY(0)";
@@ -64,28 +64,27 @@
     });
   }
 
-  // ------- sal.js init + safety net -------
-  function initSal() {
-    if (typeof sal === "function") {
-      try {
-        sal({ once: true, threshold: 0.12 });
-      } catch { /* noop */ }
-    }
-    // Safety: force-reveal anything still hidden 600 ms after init in case
-    // sal.js fails to load or activate elements already in the viewport.
-    setTimeout(function () {
-      document.querySelectorAll("[data-sal]:not(.sal-animate)").forEach(function (el) {
-        el.style.opacity = "1";
-        el.style.transform = "none";
+  // ------- Auto-close details accordion on sibling open -------
+  function initAccordion() {
+    var details = document.querySelectorAll(".faq-item details, details.faq-item");
+    details.forEach(function (targetDetail) {
+      targetDetail.addEventListener("toggle", function () {
+        if (targetDetail.open) {
+          details.forEach(function (otherDetail) {
+            if (otherDetail !== targetDetail && otherDetail.open) {
+              otherDetail.open = false;
+            }
+          });
+        }
       });
-    }, 600);
+    });
   }
 
   function init() {
     initDrawer();
     initStickyCta();
     initSmoothScroll();
-    initSal();
+    initAccordion();
   }
 
   if (document.readyState === "loading") {

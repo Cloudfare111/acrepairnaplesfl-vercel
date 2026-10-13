@@ -1,930 +1,564 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-  <head>
+
+<head>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-684T43FDEM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-684T43FDEM');
   </script>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="google-site-verification" content="6yi7cacoszw7clEa9mq7gAq4vWRYRv0KIjPzy5me_Tg" />
-    <title>Service Areas — Naples &amp; Surrounding Areas | AC Repair Naples Fl</title>
-    <meta name="description" content="AC Repair Naples Fl proudly serve Naples &amp; Surrounding Areas. See every area we cover for hvac services.">
-    <meta name="author" content="Premium AC Solutions">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://acrepairnaplesfl.com/locations">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Service Areas — Naples &amp; Surrounding Areas | AC Repair Naples Fl">
-          <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="6yi7cacoszw7clEa9mq7gAq4vWRYRv0KIjPzy5me_Tg" />
+  <title>Service Areas | AC Repair in Naples &amp; Collier County, FL</title>
+  <meta name="description"
+    content="Explore our complete HVAC & AC repair service coverage across Naples, FL and Collier County. Same-day emergency response in North Naples, Park Shore, Port Royal, and beyond. Call (239) 686-1066.">
+  <meta name="author" content="Premium AC Solutions">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://acrepairnaplesfl.com/locations">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Service Areas | AC Repair in Naples &amp; Collier County, FL">
+  <meta property="og:description"
+    content="Explore our complete HVAC & AC repair service coverage across Naples, FL and Collier County. Same-day emergency response in North Naples, Park Shore, Port Royal, and beyond. Call (239) 686-1066.">
+  <meta property="og:url" content="https://acrepairnaplesfl.com/locations">
+  <meta property="og:image" content="assets/images/map-card-downtown.jpg">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png" />
   <link rel="shortcut icon" href="assets/images/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png" />
   <link rel="manifest" href="site.webmanifest" />
 
-    <link rel="stylesheet" href="assets/global.css" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <!--rl-leads--><script>window.__RL_LEADS={siteId:"6abd20e10500e09d464a41ff",apiBase:"https://ranklocal.cc",turnstileSiteKey:""};</script><script>
-(function(){
-  function cfg(){
-    var c=window.__RL_LEADS||{};
-    var base=String(c.apiBase||''); var siteId=String(c.siteId||'');
-    if(base.indexOf('http')!==0) return null;
-    if(!siteId||siteId.indexOf('{{')!==-1) return null;
-    var key=String(c.turnstileSiteKey||''); if(key.indexOf('{{')!==-1) key='';
-    while(base.length&&base.charAt(base.length-1)==='/') base=base.slice(0,-1);
-    return {apiBase:base,siteId:siteId,ts:key};
+  <!-- Global Stylesheet -->
+  <link rel="stylesheet" href="assets/global.css" />
+
+  <!-- Structured Data: HVACBusiness with AreaServed -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HVACBusiness",
+    "@id": "https://acrepairnaplesfl.com/#localbusiness",
+    "name": "Premium AC Solutions",
+    "url": "https://acrepairnaplesfl.com/locations",
+    "telephone": "+12396861066",
+    "image": "https://acrepairnaplesfl.com/assets/images/map-card-downtown.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "4389 Enterprise Avenue",
+      "addressLocality": "Naples",
+      "addressRegion": "FL",
+      "postalCode": "34104",
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Naples" },
+      { "@type": "AdministrativeArea", "name": "Collier County" },
+      { "@type": "AdministrativeArea", "name": "North Naples" },
+      { "@type": "AdministrativeArea", "name": "Park Shore" },
+      { "@type": "AdministrativeArea", "name": "Port Royal" },
+      { "@type": "AdministrativeArea", "name": "Aqualane Shores" },
+      { "@type": "AdministrativeArea", "name": "Royal Harbor" },
+      { "@type": "AdministrativeArea", "name": "Bayshore Arts District" },
+      { "@type": "AdministrativeArea", "name": "East Naples" },
+      { "@type": "City", "name": "Marco Island" }
+    ]
   }
-  var C=cfg(); if(!C) return;
-  var TS={loading:false,loaded:false,q:[]};
-  function loadTs(cb){
-    if(TS.loaded&&window.turnstile) return cb();
-    TS.q.push(cb); if(TS.loading) return; TS.loading=true;
-    window.__rlTsReady=function(){TS.loaded=true;TS.q.forEach(function(f){f();});TS.q=[];};
-    var s=document.createElement('script');
-    s.src='https://challenges.cloudflare.com/turnstile/v0/api.js?onload=__rlTsReady&render=explicit';
-    s.async=true; s.defer=true; document.head.appendChild(s);
-  }
-  function mountTs(form){
-    if(!C.ts||form.__rlTs) return; form.__rlTs=true;
-    var box=document.createElement('div'); box.className='rl-turnstile'; box.style.margin='10px 0';
-    var sb=form.querySelector('button[type=submit],input[type=submit]');
-    if(sb&&sb.parentNode) sb.parentNode.insertBefore(box,sb); else form.appendChild(box);
-    loadTs(function(){ try{ window.turnstile.render(box,{sitekey:C.ts,size:'flexible'}); }catch(e){} });
-  }
-  function ensureHp(form){
-    if(form.querySelector('[name=_hp]')) return;
-    var i=document.createElement('input'); i.type='text'; i.name='_hp'; i.tabIndex=-1;
-    i.setAttribute('autocomplete','off'); i.setAttribute('aria-hidden','true');
-    i.style.cssText='position:absolute;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none';
-    form.appendChild(i);
-  }
-  function setup(){
-    var forms=document.querySelectorAll('form[data-rl-lead]');
-    for(var i=0;i<forms.length;i++){ (function(f){
-      ensureHp(f);
-      if(C.ts){ f.addEventListener('focusin',function(){mountTs(f);},{once:true}); }
-    })(forms[i]); }
-  }
-  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',setup); else setup();
-  document.addEventListener('submit',function(e){
-    var f=e.target;
-    if(!f||!f.matches||!f.matches('form[data-rl-lead]')) return;
-    var hp=f.querySelector('[name=_hp]'); if(hp&&hp.value) return;
-    var data={}; var els=f.querySelectorAll('input,textarea,select');
-    for(var i=0;i<els.length;i++){ var el=els[i]; var n=el.name;
-      if(!n||n==='_hp'||n==='cf-turnstile-response') continue; data[n]=el.value; }
-    data.pageUrl=window.location.href;
-    var tok=f.querySelector('[name=cf-turnstile-response]'); if(tok&&tok.value) data.turnstileToken=tok.value;
-    try{ fetch(C.apiBase+'/api/leads/'+encodeURIComponent(C.siteId),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data),keepalive:true}).catch(function(){}); }catch(_e){}
-  },true);
-})();
-</script>
+  </script>
+
+  <!--rl-leads Form Integration-->
+  <script>window.__RL_LEADS = { siteId: "6abd20e10500e09d464a41ff", apiBase: "https://ranklocal.cc", turnstileSiteKey: "" };</script>
+  <script>
+    (function () {
+      function cfg() {
+        var c = window.__RL_LEADS || {};
+        var base = String(c.apiBase || ''); var siteId = String(c.siteId || '');
+        if (base.indexOf('http') !== 0) return null;
+        if (!siteId || siteId.indexOf('{{') !== -1) return null;
+        var key = String(c.turnstileSiteKey || ''); if (key.indexOf('{{') !== -1) key = '';
+        while (base.length && base.charAt(base.length - 1) === '/') base = base.slice(0, -1);
+        return { apiBase: base, siteId: siteId, ts: key };
+      }
+      var C = cfg(); if (!C) return;
+      var TS = { loading: false, loaded: false, q: [] };
+      function loadTs(cb) {
+        if (TS.loaded && window.turnstile) return cb();
+        TS.q.push(cb); if (TS.loading) return; TS.loading = true;
+        window.__rlTsReady = function () { TS.loaded = true; TS.q.forEach(function (f) { f(); }); TS.q = []; };
+        var s = document.createElement('script');
+        s.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?onload=__rlTsReady&render=explicit';
+        s.async = true; s.defer = true; document.head.appendChild(s);
+      }
+      function mountTs(form) {
+        if (!C.ts || form.__rlTs) return; form.__rlTs = true;
+        var box = document.createElement('div'); box.className = 'rl-turnstile'; box.style.margin = '10px 0';
+        var sb = form.querySelector('button[type=submit],input[type=submit]');
+        if (sb && sb.parentNode) sb.parentNode.insertBefore(box, sb); else form.appendChild(box);
+        loadTs(function () { try { window.turnstile.render(box, { sitekey: C.ts, size: 'flexible' }); } catch (e) { } });
+      }
+      function ensureHp(form) {
+        if (form.querySelector('[name=_hp]')) return;
+        var i = document.createElement('input'); i.type = 'text'; i.name = '_hp'; i.tabIndex = -1;
+        i.setAttribute('autocomplete', 'off'); i.setAttribute('aria-hidden', 'true');
+        i.style.cssText = 'position:absolute;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none';
+        form.appendChild(i);
+      }
+      function setup() {
+        var forms = document.querySelectorAll('form[data-rl-lead]');
+        for (var i = 0; i < forms.length; i++) {
+          (function (f) {
+            ensureHp(f);
+            if (C.ts) { f.addEventListener('focusin', function () { mountTs(f); }, { once: true }); }
+          })(forms[i]);
+        }
+      }
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', setup); else setup();
+      document.addEventListener('submit', function (e) {
+        var f = e.target;
+        if (!f || !f.matches || !f.matches('form[data-rl-lead]')) return;
+        var hp = f.querySelector('[name=_hp]'); if (hp && hp.value) return;
+        var data = {}; var els = f.querySelectorAll('input,textarea,select');
+        for (var i = 0; i < els.length; i++) {
+          var el = els[i]; var n = el.name;
+          if (!n || n === '_hp' || n === 'cf-turnstile-response') continue; data[n] = el.value;
+        }
+        data.pageUrl = window.location.href;
+        var tok = f.querySelector('[name=cf-turnstile-response]'); if (tok && tok.value) data.turnstileToken = tok.value;
+        try { fetch(C.apiBase + '/api/leads/' + encodeURIComponent(C.siteId), { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data), keepalive: true }).catch(function () { }); } catch (_e) { }
+      }, true);
+    })();
+  </script>
 </head>
-  <body>
-    
-<header style="position:sticky;top:0;z-index:50;background:#fff;color:var(--t6-ink);border-bottom:1px solid var(--t6-hairline);box-shadow:0 1px 0 rgba(23,34,7,0.04);">
-  <div class="t6-container" style="display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding-top:0.95rem;padding-bottom:0.95rem;">
-    <a href="index.html" style="display:flex;align-items:center;text-decoration:none;" aria-label="Premium AC Solutions">
-        <img src="assets/images/logo.png" alt="Premium AC Solutions Logo" width="214" height="50"
-          style="height:50px;width:auto;max-width:220px;object-fit:contain;display:block;" />
+
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="site-container top-bar-inner">
+      <div class="top-bar-badge">
+        <span class="status-dot"></span>
+        <span>Local Cooling Specialists &bull; Rapid Dispatch Across Collier County</span>
+      </div>
+      <div class="top-bar-links">
+        <span class="top-bar-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          4389 Enterprise Ave, Naples, FL
+        </span>
+        <a href="tel:+12396861066" class="top-bar-link top-bar-phone">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          (239) 686-1066
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="site-container site-header-inner">
+      <a href="index.html" class="site-logo" aria-label="Premium AC Solutions Home">
+        <img src="assets/images/logo.svg" alt="Premium AC Solutions Logo" width="220" height="48" />
       </a>
 
-    <nav aria-label="Primary" class="t6-nav-desktop">
-      <a href="index.html" class="t6-nav-link">Home</a>
-      <a href="about.html" class="t6-nav-link">About</a>
-      <div class="t6-nav-dropdown">
-        <a href="services.html" class="t6-nav-link" aria-haspopup="true">Services <svg class="t6-nav-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></a>
-        <div class="t6-nav-panel" role="menu">
-          <div class="t6-nav-panel-grid">
-        <a href="mini-split-repair.html" class="t6-nav-panel-item">
-          <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></span>
-          <span class="t6-nav-panel-text">
-            <span class="t6-nav-panel-title">Mini-Split Repair</span>
-            <span class="t6-nav-panel-desc">Mini-split repair services are vital for homes with ductless systems. We diagnose issues quickly and ensure your unit operates efficiently, especially during the hot Naples summers.</span>
-          </span>
-        </a>
-        <a href="ac-not-cooling.html" class="t6-nav-panel-item">
-          <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></span>
-          <span class="t6-nav-panel-text">
-            <span class="t6-nav-panel-title">AC Not Cooling</span>
-            <span class="t6-nav-panel-desc">If your AC is not cooling, we provide prompt solutions to restore comfort. Our technicians use advanced tools to identify problems like frozen coils or thermostat issues.</span>
-          </span>
-        </a>
-        <a href="condensate-drain-clog.html" class="t6-nav-panel-item">
-          <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></span>
-          <span class="t6-nav-panel-text">
-            <span class="t6-nav-panel-title">Condensate Drain Clog</span>
-            <span class="t6-nav-panel-desc">A clogged condensate drain can lead to water damage and poor airflow. We clear clogs using specialized equipment, ensuring your HVAC system runs smoothly.</span>
-          </span>
-        </a>
-        <a href="hvac-system-replacement.html" class="t6-nav-panel-item">
-          <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></span>
-          <span class="t6-nav-panel-text">
-            <span class="t6-nav-panel-title">HVAC System Replacement</span>
-            <span class="t6-nav-panel-desc">When it's time for a new HVAC system, we guide you through the best options for your home. Our team ensures a seamless installation, enhancing your home's efficiency.</span>
-          </span>
-        </a>
-        <a href="window-ac-installation.html" class="t6-nav-panel-item">
-          <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></span>
-          <span class="t6-nav-panel-text">
-            <span class="t6-nav-panel-title">Window AC Installation</span>
-            <span class="t6-nav-panel-desc">We offer professional window AC installation services for quick cooling solutions. Our team ensures proper setup and efficiency, tailored for Naples' climate.</span>
-          </span>
-        </a>
-        <a href="compressor-valve-replacement.html" class="t6-nav-panel-item">
-          <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></span>
-          <span class="t6-nav-panel-text">
-            <span class="t6-nav-panel-title">Compressor Valve Replacement</span>
-            <span class="t6-nav-panel-desc">Restore cooling compression, fix noisy units, and repair leaking valves with precision compressor valve replacement in Naples, FL.</span>
-          </span>
-        </a>
-        <a href="package-unit-repair.html" class="t6-nav-panel-item">
-          <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></span>
-          <span class="t6-nav-panel-text">
-            <span class="t6-nav-panel-title">Package Unit Repair</span>
-            <span class="t6-nav-panel-desc">Complete diagnostic and repair service for residential and commercial rooftop and ground packaged HVAC systems in Naples.</span>
-          </span>
-        </a>
-        <a href="ac-maintenance-tune-up.html" class="t6-nav-panel-item">
-          <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></span>
-          <span class="t6-nav-panel-text">
-            <span class="t6-nav-panel-title">AC Maintenance & Tune-Up</span>
-            <span class="t6-nav-panel-desc">Comprehensive 24-point seasonal AC maintenance and precision tune-ups maximizing energy efficiency and cooling reliability in Naples.</span>
-          </span>
-        </a>
-        <a href="refrigerant-freon-recharge.html" class="t6-nav-panel-item">
-          <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></span>
-          <span class="t6-nav-panel-text">
-            <span class="t6-nav-panel-title">Refrigerant & Freon Recharge</span>
-            <span class="t6-nav-panel-desc">EPA-certified AC refrigerant leak detection, pressure testing, and precision R-410A/Freon recharge for peak cooling in Naples.</span>
-          </span>
-        </a></div>
-          <a href="services.html" class="t6-nav-panel-all">View all services &rarr;</a>
+      <nav aria-label="Main Navigation" class="desktop-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <div class="nav-dropdown">
+          <a href="services.html" class="nav-link" aria-haspopup="true">
+            Services
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg>
+          </a>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="ac-not-cooling.html" class="nav-dropdown-item" role="menuitem">
+              <span class="nav-dropdown-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+              </span>
+              <div>
+                <span class="nav-dropdown-title">AC Repair &amp; Diagnostics</span>
+                <span class="nav-dropdown-desc">Rapid diagnosis for warm air, frozen coils, clogs, and leaks.</span>
+              </div>
+            </a>
+            <a href="ac-maintenance-tune-up.html" class="nav-dropdown-item" role="menuitem">
+              <span class="nav-dropdown-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+              </span>
+              <div>
+                <span class="nav-dropdown-title">AC Maintenance &amp; Tune-Up</span>
+                <span class="nav-dropdown-desc">Comprehensive 24-point seasonal maintenance to cut energy bills.</span>
+              </div>
+            </a>
+            <a href="hvac-system-replacement.html" class="nav-dropdown-item" role="menuitem">
+              <span class="nav-dropdown-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </span>
+              <div>
+                <span class="nav-dropdown-title">HVAC System Replacement</span>
+                <span class="nav-dropdown-desc">High-efficiency, variable-speed Florida heat pump installations.</span>
+              </div>
+            </a>
+            <div class="nav-dropdown-footer">
+              <a href="services.html">View All HVAC Services &rarr;</a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="t6-nav-dropdown">
-        <a href="locations.html" class="t6-nav-link" aria-haspopup="true">Locations <svg class="t6-nav-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></a>
-        <div class="t6-nav-panel" role="menu">
-          <div class="t6-nav-panel-grid">
-        <a href="hvac-bayshore-arts-district.html" class="t6-nav-panel-item">
-          <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
-          <span class="t6-nav-panel-text">
-            <span class="t6-nav-panel-title">Bayshore Arts District</span>
-            <span class="t6-nav-panel-desc">Local service in Bayshore Arts District</span>
-          </span>
-        </a>
-        <a href="hvac-aqualane-shores.html" class="t6-nav-panel-item">
-          <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
-          <span class="t6-nav-panel-text">
-            <span class="t6-nav-panel-title">Aqualane Shores</span>
-            <span class="t6-nav-panel-desc">Local service in Aqualane Shores</span>
-          </span>
-        </a>
-        <a href="hvac-royal-harbor.html" class="t6-nav-panel-item">
-          <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
-          <span class="t6-nav-panel-text">
-            <span class="t6-nav-panel-title">Royal Harbor</span>
-            <span class="t6-nav-panel-desc">Local service in Royal Harbor</span>
-          </span>
-        </a>        <a href="hvac-port-royal.html" class="t6-nav-panel-item">
-          <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
-          <span class="t6-nav-panel-text">
-            <span class="t6-nav-panel-title">Port Royal</span>
-            <span class="t6-nav-panel-desc">Local service in Port Royal</span>
-          </span>
-        </a>
-                <a href="hvac-park-shore.html" class="t6-nav-panel-item">
-          <span class="t6-nav-panel-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
-          <span class="t6-nav-panel-text">
-            <span class="t6-nav-panel-title">Park Shore</span>
-            <span class="t6-nav-panel-desc">Local service in Park Shore</span>
-          </span>
-        </a>
-        </div>
-          <a href="locations.html" class="t6-nav-panel-all">View all service areas &rarr;</a>
-        </div>
-      </div>
-      <a href="blog.html" class="t6-nav-link">Blog</a>
-        <a href="contact.html" class="t6-nav-link">Contact</a>
-    </nav>
+        <a href="locations.html" class="nav-link active">Service Areas</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
 
-    <div style="display:flex;align-items:center;gap:.85rem;">
-      <a class="t6-btn t6-btn-primary" href="tel:+12396861066">Get Estimate</a>
-      <button id="t6NavToggle" aria-label="Open menu" aria-expanded="false" aria-controls="t6Drawer" class="t6-nav-toggle" style="background:transparent;border:1px solid var(--t6-hairline);color:var(--t6-ink);width:42px;height:42px;border-radius:8px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
-      </button>
+      <div class="header-actions">
+        <a href="tel:+12396861066" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          <span>(239) 686-1066</span>
+        </a>
+        <button id="siteNavToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="siteDrawer" class="nav-toggle-btn">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
     </div>
-  </div>
 
-  <div id="t6Drawer" class="t6-drawer" style="background:var(--t6-ink);border-top:1px solid rgba(255,255,255,.1);">
-    <div class="t6-container" style="padding:1.25rem 1.5rem 1.75rem;">
-      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.6rem;font-family:var(--font-body);font-weight:500;font-size:1rem;">
-        <li><a href="index.html" style="color:#fff;text-decoration:none;display:block;padding:.55rem 0;border-bottom:1px solid rgba(255,255,255,.08);">Home</a></li>
-        <li><a href="about.html" style="color:#fff;text-decoration:none;display:block;padding:.55rem 0;border-bottom:1px solid rgba(255,255,255,.08);">About</a></li>
-        <li><a href="services.html" style="color:#fff;text-decoration:none;display:block;padding:.55rem 0;border-bottom:1px solid rgba(255,255,255,.08);">Services</a></li>
-        <li><a href="locations.html" style="color:#fff;text-decoration:none;display:block;padding:.55rem 0;border-bottom:1px solid rgba(255,255,255,.08);">Locations</a></li>
-        <li><a href="blog.html" style="color:#fff;text-decoration:none;display:block;padding:.55rem 0;border-bottom:1px solid rgba(255,255,255,.08);">Blog</a></li>
-        <li><a href="contact.html" style="color:#fff;text-decoration:none;display:block;padding:.55rem 0;border-bottom:1px solid rgba(255,255,255,.08);">Contact</a></li>
+    <div id="siteDrawer" class="mobile-drawer">
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+        <li><a href="about.html" class="mobile-nav-link">About Us</a></li>
+        <li>
+          <a href="services.html" class="mobile-nav-link">Services</a>
+          <ul class="mobile-services-list">
+            <li><a href="ac-not-cooling.html" class="mobile-services-link">&bull; AC Repair &amp; Diagnostics</a></li>
+            <li><a href="ac-maintenance-tune-up.html" class="mobile-services-link">&bull; AC Maintenance &amp; Tune-Up</a></li>
+            <li><a href="hvac-system-replacement.html" class="mobile-services-link">&bull; HVAC System Replacement</a></li>
+          </ul>
+        </li>
+        <li><a href="locations.html" class="mobile-nav-link">Service Areas</a></li>
+        <li><a href="blog.html" class="mobile-nav-link">Blog &amp; Guides</a></li>
+        <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
       </ul>
-      <details style="margin-top:1.25rem;color:#fff;"><summary style="font-family:var(--font-display);cursor:pointer;font-weight:600;">Browse Services</summary><ul style="list-style:none;padding:.6rem 0 0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:.4rem .8rem;color:rgba(255,255,255,.85);"><li><a href="mini-split-repair.html" class="t6-link-grow t6-link-grow--on-ink">Mini-Split Repair</a></li><li><a href="ac-not-cooling.html" class="t6-link-grow t6-link-grow--on-ink">AC Not Cooling</a></li><li><a href="condensate-drain-clog.html" class="t6-link-grow t6-link-grow--on-ink">Condensate Drain Clog</a></li><li><a href="hvac-system-replacement.html" class="t6-link-grow t6-link-grow--on-ink">HVAC System Replacement</a></li><li><a href="window-ac-installation.html" class="t6-link-grow t6-link-grow--on-ink">Window AC Installation</a></li><li><a href="compressor-valve-replacement.html" class="t6-link-grow t6-link-grow--on-ink">Compressor Valve Replacement</a></li><li><a href="package-unit-repair.html" class="t6-link-grow t6-link-grow--on-ink">Package Unit Repair</a></li><li><a href="ac-maintenance-tune-up.html" class="t6-link-grow t6-link-grow--on-ink">AC Maintenance & Tune-Up</a></li><li><a href="refrigerant-freon-recharge.html" class="t6-link-grow t6-link-grow--on-ink">Refrigerant & Freon Recharge</a></li></ul></details>
-      <details style="margin-top:1rem;color:#fff;"><summary style="font-family:var(--font-display);cursor:pointer;font-weight:600;">Service Areas</summary><ul style="list-style:none;padding:.6rem 0 0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:.4rem .8rem;color:rgba(255,255,255,.85);"><li><a href="hvac-bayshore-arts-district.html" class="t6-link-grow t6-link-grow--on-ink">Bayshore Arts District</a></li><li><a href="hvac-aqualane-shores.html" class="t6-link-grow t6-link-grow--on-ink">Aqualane Shores</a></li><li><a href="hvac-royal-harbor.html" class="t6-link-grow t6-link-grow--on-ink">Royal Harbor</a></li><li><a href="hvac-port-royal.html" class="t6-link-grow t6-link-grow--on-ink">Port Royal</a></li><li><a href="hvac-park-shore.html" class="t6-link-grow t6-link-grow--on-ink">Park Shore</a></li></ul></details>
-      <a href="tel:+12396861066" class="t6-btn t6-btn-primary" style="margin-top:1.5rem;width:100%;">Call (239) 686-1066</a>
+      <a href="tel:+12396861066" class="btn btn-primary" style="width:100%;text-align:center;">
+        Call (239) 686-1066 Now
+      </a>
     </div>
-  </div>
-  <style>
-    .t6-nav-desktop { display: none; align-items: center; gap: 1.85rem; font-family: var(--font-body); font-weight: 500; font-size: 0.95rem; }
-    .t6-nav-link { display: inline-flex; align-items: center; gap: 0.3rem; color: var(--t6-ink); text-decoration: none; padding: 0.4rem 0; }
-    .t6-nav-link:hover { color: var(--t6-green-dark); }
-    .t6-nav-chevron { transition: transform 0.2s ease; }
-    .t6-nav-dropdown { position: relative; }
-    .t6-nav-dropdown > .t6-nav-link { cursor: pointer; }
-    .t6-nav-panel {
-      position: absolute;
-      top: 100%; left: 50%;
-      transform: translateX(-50%) translateY(8px);
-      width: 540px;
-      background: #fff;
-      border: 1px solid var(--t6-hairline);
-      border-radius: 12px;
-      box-shadow: 0 18px 50px rgba(23, 34, 7, 0.13);
-      padding: 1.25rem;
-      opacity: 0; visibility: hidden;
-      transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
-      z-index: 50;
-    }
-    .t6-nav-dropdown:hover > .t6-nav-panel,
-    .t6-nav-dropdown:focus-within > .t6-nav-panel {
-      opacity: 1; visibility: visible;
-      transform: translateX(-50%) translateY(0);
-    }
-    .t6-nav-dropdown:hover .t6-nav-chevron,
-    .t6-nav-dropdown:focus-within .t6-nav-chevron { transform: rotate(180deg); }
-    .t6-nav-panel-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 0.45rem;
-      max-height: 380px;
-      overflow-y: auto;
-    }
-    .t6-nav-panel-item {
-      display: flex; gap: 0.7rem; align-items: flex-start;
-      padding: 0.7rem 0.8rem;
-      border-radius: 8px;
-      text-decoration: none;
-      color: var(--t6-ink);
-      transition: background 0.15s ease;
-    }
-    .t6-nav-panel-item:hover { background: var(--t6-band); color: var(--t6-ink); }
-    .t6-nav-panel-icon {
-      flex: 0 0 36px;
-      width: 36px; height: 36px;
-      background: rgba(169, 223, 89, 0.22);
-      border-radius: 8px;
-      display: inline-flex; align-items: center; justify-content: center;
-      color: var(--t6-ink);
-    }
-    .t6-nav-panel-text { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 0.2rem; }
-    .t6-nav-panel-title { font-family: var(--font-display); font-weight: 600; font-size: 0.92rem; line-height: 1.2; color: var(--t6-ink); }
-    .t6-nav-panel-desc { font-size: 0.78rem; color: var(--t6-muted); line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-    .t6-nav-panel-all {
-      display: block;
-      margin-top: 1rem;
-      padding-top: 0.85rem;
-      border-top: 1px solid var(--t6-hairline);
-      font-family: var(--font-display);
-      font-weight: 600;
-      font-size: 0.88rem;
-      color: var(--t6-ink);
-      text-decoration: none;
-    }
-    .t6-nav-panel-all:hover { color: var(--t6-green-dark); }
-    @media (min-width: 1024px) {
-      .t6-nav-desktop { display: flex !important; }
-      .t6-nav-toggle { display: none !important; }
-      .t6-nav-phone { display: inline-flex !important; align-items: center; gap: 6px; }
-    }
-  </style>
-</header>
-    <main>
-      
-<section class="t6-band-ink" style="position:relative;padding:7rem 0 4.5rem;overflow:hidden;">
-  <div style="position:absolute;inset:0;background:url('assets/images/gen/on-the-job-9f088cf1.webp') center/cover no-repeat;"></div>
-  <div class="t6-hero-overlay"></div>
-  <div class="t6-container" style="position:relative;text-align:center;">
-    <ul style="display:inline-flex;gap:.75rem;margin:0 0 1.25rem;padding:0;list-style:none;font-family:var(--font-body);font-weight:500;text-transform:uppercase;letter-spacing:.14em;font-size:.78rem;" data-sal="fade">
-      <li style="display:flex;align-items:center;gap:.5rem;color:rgba(255,255,255,.78);"><a href="index.html" style="color:inherit;text-decoration:none;">Home</a></li><li style="display:flex;align-items:center;gap:.5rem;color:var(--t6-green);"><span style="opacity:.5;">/</span><a href="javascript:void(0)" style="color:inherit;text-decoration:none;">Locations</a></li>
-    </ul>
-    <h1 style="color:#fff;margin:0 auto 1rem;max-width:880px;" data-sal="slide-up">Proudly Serving Naples and Surrounding Areas</h1>
-    <hr class="t6-hr-green" style="margin:1rem auto 1.25rem;" />
-    <p style="color:rgba(255,255,255,.88);max-width:680px;margin:0 auto;font-size:1.08rem;line-height:1.65;" data-sal="fade" data-sal-delay="100">We provide HVAC services throughout Naples, including key neighborhoods and communities, ensuring reliable solutions for all residents.</p>
-  </div>
-</section>
-      
-<section class="t6-trust-strip" aria-label="Why customers trust us">
-  <div class="t6-container">
-    <div class="t6-trust-strip__grid">
-      
-      <div class="t6-trust-item" data-sal="fade">
-        <span class="t6-trust-item__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></span>
-        <span style="display:flex;flex-direction:column;gap:2px;">
-          <span class="t6-trust-item__label">Licensed</span>
-          <span class="t6-trust-item__value">Licensed & Bonded</span>
-        </span>
-      </div>
-      <div class="t6-trust-item" data-sal="fade">
-        <span class="t6-trust-item__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
-        <span style="display:flex;flex-direction:column;gap:2px;">
-          <span class="t6-trust-item__label">Fully Insured</span>
-          <span class="t6-trust-item__value">Insured & Bonded</span>
-        </span>
-      </div>
-      <div class="t6-trust-item" data-sal="fade">
-        <span class="t6-trust-item__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
-        <span style="display:flex;flex-direction:column;gap:2px;">
-          <span class="t6-trust-item__label">24/7 Emergency</span>
-          <span class="t6-trust-item__value">Same-Day Response</span>
-        </span>
-      </div>
-      <div class="t6-trust-item" data-sal="fade">
-        <span class="t6-trust-item__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg></span>
-        <span style="display:flex;flex-direction:column;gap:2px;">
-          <span class="t6-trust-item__label">Warranty Backed</span>
-          <span class="t6-trust-item__value">Workmanship Guaranteed in Naples</span>
-        </span>
-      </div>
-    </div>
-  </div>
-</section>
-      <!-- RL-AUTO:locations-section START -->
+  </header>
 
-<section id="locations" class="t6-section t6-band-white">
-  <div class="t6-container">
-    <div class="t6-section-title t6-section-title--center" data-sal="fade">
-      <h2 style="margin:.6rem 0 1rem;">Proudly Serving Naples and Surrounding Areas</h2>
-      <p class="t6-section-title__lede">We provide HVAC services throughout Naples, including key neighborhoods and communities, ensuring reliable solutions for all residents.</p>
-    </div>
-
-    <style>
-      .t6-locations-showcase-grid {
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        gap: 1.5rem;
-        margin-top: 2rem;
-      }
-      .t6-location-card {
-        background: #ffffff;
-        border: 1px solid var(--t6-border, #e3e6dc);
-        border-radius: 14px;
-        padding: 1.5rem 1.35rem;
-        box-shadow: 0 2px 10px rgba(23, 34, 7, 0.04);
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
-      }
-      .t6-location-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 12px 28px rgba(23, 34, 7, 0.09);
-        border-color: var(--t6-green-dark, #94CC42);
-      }
-      /* Desktop: Row 1 has 3 cards (span 2 each), Row 2 has 2 cards centered */
-      @media (min-width: 993px) {
-        .t6-location-card:nth-child(1),
-        .t6-location-card:nth-child(2),
-        .t6-location-card:nth-child(3) {
-          grid-column: span 2;
-        }
-        .t6-location-card:nth-child(4) {
-          grid-column: 2 / span 2;
-        }
-        .t6-location-card:nth-child(5) {
-          grid-column: 4 / span 2;
-        }
-      }
-      /* Tablet: 2 cards in a row */
-      @media (max-width: 992px) and (min-width: 641px) {
-        .t6-locations-showcase-grid {
-          grid-template-columns: repeat(2, 1fr);
-          gap: 1.25rem;
-        }
-        .t6-location-card:nth-child(5) {
-          grid-column: 1 / -1;
-          max-width: 520px;
-          margin: 0 auto;
-          width: 100%;
-        }
-      }
-      /* Mobile: 1 card per row */
-      @media (max-width: 640px) {
-        .t6-locations-showcase-grid {
-          grid-template-columns: 1fr;
-          gap: 1.25rem;
-        }
-      }
-      .t6-location-card__top {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: .5rem;
-        margin-bottom: .85rem;
-      }
-      .t6-location-card__icon {
-        width: 38px;
-        height: 38px;
-        border-radius: 10px;
-        background: rgba(169, 223, 89, 0.22);
-        color: #2b5f09;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        flex-shrink: 0;
-      }
-      .t6-location-card__badge {
-        display: inline-block;
-        padding: .25rem .65rem;
-        border-radius: 20px;
-        background: var(--t6-band, #f4f6f0);
-        border: 1px solid var(--t6-hairline, #e2e2e2);
-        font-size: .75rem;
-        font-weight: 600;
-        color: var(--t6-muted, #494b46);
-        letter-spacing: .02em;
-      }
-      .t6-location-card__title {
-        font-family: var(--font-display, "Inter", sans-serif);
-        font-size: 1.25rem;
-        font-weight: 700;
-        color: var(--t6-ink, #172207);
-        margin: 0 0 .25rem;
-        line-height: 1.3;
-      }
-      .t6-location-card__title a {
-        color: inherit;
-        text-decoration: none;
-        transition: color .15s ease;
-      }
-      .t6-location-card__title a:hover {
-        color: #2b5f09;
-      }
-      .t6-location-card__sub {
-        font-size: .8rem;
-        color: var(--t6-muted, #494b46);
-        font-weight: 500;
-        margin-bottom: .85rem;
-        display: flex;
-        align-items: center;
-        gap: .35rem;
-      }
-      .t6-location-card__desc {
-        color: var(--t6-text, #172207);
-        font-size: .88rem;
-        line-height: 1.55;
-        margin: 0 0 1rem;
-        flex-grow: 1;
-      }
-      .t6-location-card__features {
-        list-style: none;
-        padding: 0;
-        margin: 0 0 1.25rem;
-        display: flex;
-        flex-direction: column;
-        gap: .4rem;
-        font-size: .82rem;
-        color: var(--t6-muted, #494b46);
-      }
-      .t6-location-card__features li {
-        display: flex;
-        align-items: center;
-        gap: .45rem;
-      }
-      .t6-location-card__check {
-        color: #2b5f09;
-        font-weight: 700;
-        font-size: .92rem;
-        flex-shrink: 0;
-      }
-      .t6-location-card__action {
-        border-top: 1px solid var(--t6-hairline, #e2e2e2);
-        padding-top: 1rem;
-      }
-      .t6-location-card__btn {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: .5rem;
-        width: 100%;
-        padding: .75rem 1rem;
-        border-radius: 8px;
-        background: var(--t6-green-soft, #eaf7d2);
-        color: var(--t6-ink, #172207);
-        font-family: var(--font-display, "Inter", sans-serif);
-        font-weight: 600;
-        font-size: .88rem;
-        text-decoration: none;
-        border: 1px solid rgba(148, 204, 66, 0.4);
-        transition: background .2s ease, border-color .2s ease, transform .2s ease;
-      }
-      .t6-location-card__btn:hover {
-        background: var(--t6-green, #A9DF59);
-        border-color: var(--t6-green-dark, #94CC42);
-        color: #172207;
-        transform: translateY(-1px);
-      }
-    </style>
-
-    <div class="t6-locations-showcase-grid">
-
-      <!-- Location Card 1: Bayshore Arts District -->
-      <article class="t6-location-card" data-sal="slide-up" data-sal-delay="0">
-        <div>
-          <div class="t6-location-card__top">
-            <span class="t6-location-card__icon" aria-hidden="true">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/>
-                <circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/>
-                <circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/>
-                <circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/>
-                <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.563-2.512 5.563-5.563C22 6.5 17.5 2 12 2z"/>
-              </svg>
-            </span>
-            <span class="t6-location-card__badge">Arts &amp; Botanical District</span>
-          </div>
-          <h3 class="t6-location-card__title">
-            <a href="hvac-bayshore-arts-district.html">Bayshore Arts District</a>
-          </h3>
-          <div class="t6-location-card__sub">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-            <span>Naples, FL • East Naples Area</span>
-          </div>
-          <p class="t6-location-card__desc">
-            Specialized HVAC repairs, humidity regulation, and high-efficiency ductless cooling tailored for studios, galleries, cottages, and waterfront residences near the Naples Botanical Garden.
-          </p>
-          <ul class="t6-location-card__features">
-            <li><span class="t6-location-card__check">&#10003;</span> Rapid same-day diagnostic response</li>
-            <li><span class="t6-location-card__check">&#10003;</span> High-humidity &amp; mold prevention airflow</li>
-            <li><span class="t6-location-card__check">&#10003;</span> Ductless mini-splits &amp; central heat pumps</li>
-          </ul>
-        </div>
-        <div class="t6-location-card__action">
-          <a href="hvac-bayshore-arts-district.html" class="t6-location-card__btn" aria-label="Explore Bayshore Arts District AC and HVAC Services">
-            <span>Explore Bayshore Arts District</span>
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </a>
-        </div>
-      </article>
-
-      <!-- Location Card 2: Aqualane Shores -->
-      <article class="t6-location-card" data-sal="slide-up" data-sal-delay="60">
-        <div>
-          <div class="t6-location-card__top">
-            <span class="t6-location-card__icon" aria-hidden="true">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/>
-                <path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/>
-                <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/>
-              </svg>
-            </span>
-            <span class="t6-location-card__badge">Deep-Water Canal Living</span>
-          </div>
-          <h3 class="t6-location-card__title">
-            <a href="hvac-aqualane-shores.html">Aqualane Shores</a>
-          </h3>
-          <div class="t6-location-card__sub">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-            <span>Naples, FL • South of Old Naples</span>
-          </div>
-          <p class="t6-location-card__desc">
-            Precision cooling diagnostics, clogged condensate line flushing, and coastal salt-air defense for deep-water canal residences situated between Old Naples and Port Royal.
-          </p>
-          <ul class="t6-location-card__features">
-            <li><span class="t6-location-card__check">&#10003;</span> Marine-grade coil coatings &amp; defense</li>
-            <li><span class="t6-location-card__check">&#10003;</span> Emergency drain pan &amp; line clearing</li>
-            <li><span class="t6-location-card__check">&#10003;</span> Multi-zone variable speed AC experts</li>
-          </ul>
-        </div>
-        <div class="t6-location-card__action">
-          <a href="hvac-aqualane-shores.html" class="t6-location-card__btn" aria-label="Explore Aqualane Shores AC and HVAC Services">
-            <span>Explore Aqualane Shores</span>
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </a>
-        </div>
-      </article>
-
-      <!-- Location Card 3: Royal Harbor -->
-      <article class="t6-location-card" data-sal="slide-up" data-sal-delay="120">
-        <div>
-          <div class="t6-location-card__top">
-            <span class="t6-location-card__icon" aria-hidden="true">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="10"/>
-                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
-              </svg>
-            </span>
-            <span class="t6-location-card__badge">Naples Bay Boating</span>
-          </div>
-          <h3 class="t6-location-card__title">
-            <a href="hvac-royal-harbor.html">Royal Harbor</a>
-          </h3>
-          <div class="t6-location-card__sub">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-            <span>Naples, FL • East Shore of Naples Bay</span>
-          </div>
-          <p class="t6-location-card__desc">
-            Complete residential cooling repairs, compressor valve replacements, and 24-point seasonal tune-ups engineered to protect waterfront properties from harsh coastal humidity.
-          </p>
-          <ul class="t6-location-card__features">
-            <li><span class="t6-location-card__check">&#10003;</span> Compressor, fan motor &amp; capacitor repairs</li>
-            <li><span class="t6-location-card__check">&#10003;</span> Coastal salt-air corrosion inspections</li>
-            <li><span class="t6-location-card__check">&#10003;</span> Upfront flat-rate pricing guaranteed</li>
-          </ul>
-        </div>
-        <div class="t6-location-card__action">
-          <a href="hvac-royal-harbor.html" class="t6-location-card__btn" aria-label="Explore Royal Harbor AC and HVAC Services">
-            <span>Explore Royal Harbor</span>
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </a>
-        </div>
-      </article>
-
-      <!-- Location Card 4: Port Royal -->
-      <article class="t6-location-card" data-sal="slide-up" data-sal-delay="180">
-        <div>
-          <div class="t6-location-card__top">
-            <span class="t6-location-card__icon" aria-hidden="true">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-                <polyline points="9 22 9 12 15 12 15 22"/>
-              </svg>
-            </span>
-            <span class="t6-location-card__badge">Ultra-Luxury Coastal Estates</span>
-          </div>
-          <h3 class="t6-location-card__title">
-            <a href="hvac-port-royal.html">Port Royal</a>
-          </h3>
-          <div class="t6-location-card__sub">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-            <span>Naples, FL • Southern Tip Peninsula</span>
-          </div>
-          <p class="t6-location-card__desc">
-            White-glove HVAC services, high-capacity multi-zone climate control, and 24/7 priority emergency cooling for Naples' premier waterfront and beachfront luxury estates.
-          </p>
-          <ul class="t6-location-card__features">
-            <li><span class="t6-location-card__check">&#10003;</span> 24/7 priority dispatch for luxury estates</li>
-            <li><span class="t6-location-card__check">&#10003;</span> High-SEER2 multi-stage cooling systems</li>
-            <li><span class="t6-location-card__check">&#10003;</span> Smart thermostat &amp; zone zoning setup</li>
-          </ul>
-        </div>
-        <div class="t6-location-card__action">
-          <a href="hvac-port-royal.html" class="t6-location-card__btn" aria-label="Explore Port Royal AC and HVAC Services">
-            <span>Explore Port Royal</span>
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </a>
-        </div>
-      </article>
-
-      <!-- Location Card 5: Park Shore -->
-      <article class="t6-location-card" data-sal="slide-up" data-sal-delay="240">
-        <div>
-          <div class="t6-location-card__top">
-            <span class="t6-location-card__icon" aria-hidden="true">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="4" y="2" width="16" height="20" rx="2" ry="2"/>
-                <line x1="9" y1="22" x2="9" y2="22.01"/>
-                <line x1="15" y1="22" x2="15" y2="22.01"/>
-                <line x1="8" y1="6" x2="10" y2="6"/>
-                <line x1="14" y1="6" x2="16" y2="6"/>
-                <line x1="8" y1="10" x2="10" y2="10"/>
-                <line x1="14" y1="10" x2="16" y2="10"/>
-                <line x1="8" y1="14" x2="10" y2="14"/>
-                <line x1="14" y1="14" x2="16" y2="14"/>
-              </svg>
-            </span>
-            <span class="t6-location-card__badge">Gulf-Front High-Rises &amp; Villas</span>
-          </div>
-          <h3 class="t6-location-card__title">
-            <a href="hvac-park-shore.html">Park Shore</a>
-          </h3>
-          <div class="t6-location-card__sub">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-            <span>Naples, FL • North of Moorings</span>
-          </div>
-          <p class="t6-location-card__desc">
-            Tailored air conditioning repairs, whisper-quiet system maintenance, and ductless mini-split solutions for luxury Gulf-front condominiums, towers, and private villas.
-          </p>
-          <ul class="t6-location-card__features">
-            <li><span class="t6-location-card__check">&#10003;</span> High-rise condo HVAC access specialists</li>
-            <li><span class="t6-location-card__check">&#10003;</span> Ductless mini-split &amp; compact heat pumps</li>
-            <li><span class="t6-location-card__check">&#10003;</span> Comprehensive seasonal AC tune-ups</li>
-          </ul>
-        </div>
-        <div class="t6-location-card__action">
-          <a href="hvac-park-shore.html" class="t6-location-card__btn" aria-label="Explore Park Shore AC and HVAC Services">
-            <span>Explore Park Shore</span>
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </a>
-        </div>
-      </article>
-
-    </div>
-
-    <!-- Landmarks Spotlight Strip -->
-    <div style="margin-top:3.5rem;padding:2.25rem;background:var(--t6-band, #f3f6ee);border-radius:14px;border:1px solid var(--t6-hairline);display:grid;grid-template-columns:1fr;gap:1.5rem;align-items:center;" data-sal="fade">
-      <div>
-        <span style="font-family:var(--font-display);font-weight:700;font-size:0.82rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--t6-green-dark);">Local Points of Interest</span>
-        <h3 style="margin:0.4rem 0 0.8rem;font-size:1.45rem;color:var(--t6-ink);">Serving Neighborhoods Near Iconic Naples Landmarks</h3>
-        <p style="margin:0 0 1.25rem;font-size:1rem;line-height:1.65;color:var(--t6-text);max-width:850px;">
-          Our certified technicians provide prompt, punctual dispatch to homes, condominiums, and commercial properties surrounding landmark destinations across Collier County—including the historic <strong>Naples Pier</strong> (built 1888), <strong>5th Avenue South</strong>, <strong>3rd Street South</strong>, <strong>Tin City Waterfront Marketplace</strong>, the <strong>Naples Botanical Garden</strong>, and <strong>Artis—Naples</strong>.
-        </p>
-        <a href="locations.html" class="t6-btn t6-btn-primary" style="display:inline-flex;align-items:center;gap:.5rem;">
-          <span>Explore All Naples Landmark Cards</span>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- RL-AUTO:locations-section END -->
-      
-<section class="t6-section t6-band-cream">
-  <div class="t6-container">
-    <div style="display:grid;gap:2rem;grid-template-columns:1fr;align-items:stretch;">
-      <div style="display:flex;flex-direction:column;justify-content:center;" data-sal="slide-right">
-        <h2 style="margin:.6rem 0 1rem;">Stop by or send a crew your way</h2>
-        <p class="t6-muted" style="font-size:1.05rem;max-width:480px;"><a href="https://maps.google.com/?q=4389+Enterprise+Avenue,+Naples,+FL+34104" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">4389 Enterprise Avenue, Naples, FL 34104</a></p>
-        <ul style="list-style:none;padding:0;margin:1.25rem 0;display:flex;flex-direction:column;gap:.75rem;">
-          <li style="display:flex;gap:.65rem;align-items:center;"><span class="t6-icon-badge" style="width:32px;height:32px;border-radius:8px;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg></span> <a href="tel:+12396861066" style="text-decoration:none;color:var(--t6-ink);font-weight:600;">(239) 686-1066</a></li>
-          <li style="display:flex;gap:.65rem;align-items:center;"><span class="t6-icon-badge" style="width:32px;height:32px;border-radius:8px;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span> Mon&ndash;Sat: 7AM &ndash; 7PM &middot; 24/7 emergency</li>
-        </ul>
-        <div style="display:flex;gap:.75rem;flex-wrap:wrap;">
-          <a href="tel:+12396861066" class="t6-btn t6-btn-primary">Call Now</a>
-          <a href="https://maps.google.com/?q=4389+Enterprise+Avenue,+Naples,+FL+34104" target="_blank" rel="noopener noreferrer" class="t6-btn t6-btn-ghost">Get Directions</a>
-        </div>
-      </div>
-      <div data-sal="slide-left">
-        <div class="t6-image-frame" style="height:100%;min-height:360px;">
-          <iframe src="https://maps.google.com/maps?q=4389%20Enterprise%20Avenue%2C%20Naples%2C%20FL%2034104&z=15&output=embed" width="100%" height="100%" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border:0;display:block;min-height:360px;" title="Map embed"></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-  <style>
-    @media (min-width: 900px) {
-      section.t6-section.t6-band-cream > .t6-container > div { grid-template-columns: 1fr 1.4fr !important; gap: 3rem !important; }
-    }
-  </style>
-</section>
-      
-    <section class="py-16 bg-background">
-      <div class="container mx-auto px-6">
-        <div class="max-w-5xl mx-auto text-center">
-          <span class="inline-block px-4 py-1 rounded-full bg-muted text-primary text-sm font-medium mb-3">Regional Coverage</span>
-          <h2 class="text-2xl md:text-3xl font-bold text-foreground mb-3">HVAC Coverage Across Naples &amp; Collier County</h2>
-          <p class="text-muted-foreground max-w-3xl mx-auto mb-4">Supporting over 375,000 residents across the Naples–Marco Island metropolitan statistical area, Collier County, and surrounding coastal enclaves. In Naples' tropical savanna climate (Aw)—characterized by sustained 92&deg;F summer highs, high humidity, and coastal salt-air exposure—our <strong>knowledgeable technicians</strong> deliver <strong>clear explanations of work</strong>, <strong>fair pricing</strong>, and dependable <strong>maintenance plans</strong> designed to protect both full-time residences and seasonal properties (with Naples' 46.1% second-home vacancy rate).</p>
-          <div class="flex flex-wrap justify-center gap-2 max-w-3xl mx-auto"><span class="px-4 py-2 rounded-full border border-border bg-card text-sm font-semibold text-foreground">34102 (Old Naples / Port Royal)</span><span class="px-4 py-2 rounded-full border border-border bg-card text-sm font-semibold text-foreground">34103 (Park Shore / Moorings)</span><span class="px-4 py-2 rounded-full border border-border bg-card text-sm font-semibold text-foreground">34104 (Royal Harbor / East Naples)</span><span class="px-4 py-2 rounded-full border border-border bg-card text-sm font-semibold text-foreground">34105 (Grey Oaks / Central)</span><span class="px-4 py-2 rounded-full border border-border bg-card text-sm font-semibold text-foreground">34108 (Pelican Bay / Vanderbilt)</span><span class="px-4 py-2 rounded-full border border-border bg-card text-sm font-semibold text-foreground">34112 (Bayshore Arts District)</span></div>
-        </div>
-      </div>
-    </section>
-      
-<section class="t6-band-green" style="position:relative;padding:4.5rem 0;">
-  <div class="t6-container" style="position:relative;display:grid;gap:2rem;grid-template-columns:1fr;align-items:center;">
-    <div data-sal="slide-up" style="max-width:760px;">
-      <h2 style="color:var(--t6-ink);margin:.6rem 0 1rem;font-size:clamp(2rem,3vw + 1rem,3rem);">Need HVAC Naples FL Services Today?</h2>
-      <p style="color:var(--t6-ink);opacity:.85;font-size:1.08rem;max-width:580px;line-height:1.65;">Contact us for prompt and professional HVAC services in Naples. We're here to help you stay comfortable all year round.</p>
-    </div>
-    <div style="display:flex;gap:.85rem;flex-wrap:wrap;align-items:center;" data-sal="fade" data-sal-delay="100">
-      <a href="tel:+12396861066" class="t6-btn t6-btn-on-green" style="font-size:1.02rem;padding:1rem 1.85rem;">Call (239) 686-1066</a>
-      <a href="contact.html" class="t6-btn t6-btn-ghost" style="font-size:1.02rem;">Contact Us Now</a>
-    </div>
-  </div>
-  <style>
-    @media (min-width: 900px) {
-      section.t6-band-green > .t6-container { grid-template-columns: 1.4fr 1fr !important; }
-    }
-  </style>
-</section>
-    </main>
-    
-<footer class="t6-band-ink" style="position:relative;padding:4.5rem 0 2rem;margin-top:3rem;">
-  <div class="t6-container" style="position:relative;">
-    <div style="display:grid;gap:2.5rem;grid-template-columns:1.4fr 1fr 1fr 1fr;">
-      <div>
-        <a href="index.html" style="display:inline-block;text-decoration:none;margin-bottom:1.25rem;" aria-label="Premium AC Solutions">
-            <img src="assets/images/logo-white.png" alt="Premium AC Solutions Logo" width="214" height="50"
-              style="height:50px;width:auto;max-width:220px;object-fit:contain;display:block;" />
-          </a>
-        <hr class="t6-hr-green" style="margin:0 0 1rem;" />
-        <p style="color:rgba(255,255,255,.78);max-width:340px;font-size:.95rem;line-height:1.7;">Licensed, insured hvac pros serving local homes and businesses with same-day response and a real workmanship warranty.</p>
-        <div style="margin-top:1.25rem;display:flex;flex-wrap:wrap;gap:.6rem;" data-social-links>
-          <a href="#" data-social="facebook" aria-label="Facebook" style="color:#fff;display:inline-flex;width:36px;height:36px;border:1px solid rgba(255,255,255,.25);border-radius:50%;align-items:center;justify-content:center;text-decoration:none;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"/></svg>
-          </a>
-          <a href="#" data-social="instagram" aria-label="Instagram" style="color:#fff;display:inline-flex;width:36px;height:36px;border:1px solid rgba(255,255,255,.25);border-radius:50%;align-items:center;justify-content:center;text-decoration:none;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"/></svg>
-          </a>
-          <a href="#" data-social="x" aria-label="X/Twitter" style="color:#fff;display:inline-flex;width:36px;height:36px;border:1px solid rgba(255,255,255,.25);border-radius:50%;align-items:center;justify-content:center;text-decoration:none;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M10.488 14.651L15.25 21h7l-7.858-10.478L20.93 3h-2.65l-5.117 5.886L8.75 3h-7l7.51 10.015L2.32 21h2.65zM16.25 19L5.75 5h2l10.5 14z"/></svg>
-          </a>
-          <a href="#" data-social="linkedin" aria-label="LinkedIn" style="color:#fff;display:inline-flex;width:36px;height:36px;border:1px solid rgba(255,255,255,.25);border-radius:50%;align-items:center;justify-content:center;text-decoration:none;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"/></svg>
-          </a>
-          <a href="#" data-social="youtube" aria-label="YouTube" style="color:#fff;display:inline-flex;width:36px;height:36px;border:1px solid rgba(255,255,255,.25);border-radius:50%;align-items:center;justify-content:center;text-decoration:none;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-          </a>
-          <a href="#" data-social="tiktok" aria-label="TikTok" style="color:#fff;display:inline-flex;width:36px;height:36px;border:1px solid rgba(255,255,255,.25);border-radius:50%;align-items:center;justify-content:center;text-decoration:none;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.7 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.74-.1z"/></svg>
-          </a>
-          <a href="#" data-social="pinterest" aria-label="Pinterest" style="color:#fff;display:inline-flex;width:36px;height:36px;border:1px solid rgba(255,255,255,.25);border-radius:50%;align-items:center;justify-content:center;text-decoration:none;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/></svg>
-          </a>
-        </div>
-      </div>
-
-      <div>
-        <p style="color:#fff;font-family:var(--font-display);font-weight:600;font-size:1rem;margin:0 0 1rem;">Contact</p>
-        <hr class="t6-hr-green" style="margin:0 0 1rem;" />
-        <div style="color:rgba(255,255,255,.85);font-size:.92rem;line-height:1.7;">
-          <p style="margin:0 0 .4rem;"><a href="tel:+12396861066" style="color:#fff;text-decoration:none;font-weight:600;">(239) 686-1066</a></p>
-          <p style="margin:0 0 .4rem;"><a href="https://maps.google.com/?q=4389+Enterprise+Avenue,+Naples,+FL+34104" target="_blank" rel="noopener noreferrer" style="color:rgba(255,255,255,.85);text-decoration:none;" title="View Premium AC Solutions on Google Maps">4389 Enterprise Avenue, Naples, FL 34104</a></p>
-          <p style="margin:0;">Mon&ndash;Fri: 7AM &ndash; 7PM<br/>Sat: 8AM &ndash; 4PM<br/>24/7 Emergency</p>
-        </div>
-      </div>
-
-      <div>
-        <p style="color:#fff;font-family:var(--font-display);font-weight:600;font-size:1rem;margin:0 0 1rem;">Services</p>
-        <hr class="t6-hr-green" style="margin:0 0 1rem;" />
-        <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.5rem;font-size:.92rem;">
-          <!-- RL-AUTO:footer-services START -->
-<li><a href="mini-split-repair.html" style="color:rgba(255,255,255,.85);text-decoration:none;">Mini-Split Repair</a></li><li><a href="ac-not-cooling.html" style="color:rgba(255,255,255,.85);text-decoration:none;">AC Not Cooling</a></li><li><a href="condensate-drain-clog.html" style="color:rgba(255,255,255,.85);text-decoration:none;">Condensate Drain Clog</a></li><li><a href="hvac-system-replacement.html" style="color:rgba(255,255,255,.85);text-decoration:none;">HVAC System Replacement</a></li><li><a href="window-ac-installation.html" style="color:rgba(255,255,255,.85);text-decoration:none;">Window AC Installation</a></li><li><a href="compressor-valve-replacement.html" style="color:rgba(255,255,255,.85);text-decoration:none;">Compressor Valve Replacement</a></li><li><a href="package-unit-repair.html" style="color:rgba(255,255,255,.85);text-decoration:none;">Package Unit Repair</a></li><li><a href="ac-maintenance-tune-up.html" style="color:rgba(255,255,255,.85);text-decoration:none;">AC Maintenance & Tune-Up</a></li><li><a href="refrigerant-freon-recharge.html" style="color:rgba(255,255,255,.85);text-decoration:none;">Refrigerant & Freon Recharge</a></li>
-<!-- RL-AUTO:footer-services END -->
-          <li><a href="services.html" class="t6-link-grow t6-link-grow--on-ink" style="color:var(--t6-green);">View All &rarr;</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <p style="color:#fff;font-family:var(--font-display);font-weight:600;font-size:1rem;margin:0 0 1rem;">Quick Links</p>
-        <hr class="t6-hr-green" style="margin:0 0 1rem;" />
-        <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.5rem;font-size:.92rem;">
-          <li><a href="about.html" style="color:rgba(255,255,255,.85);text-decoration:none;">About Us</a></li>
-          <li><a href="locations.html" style="color:rgba(255,255,255,.85);text-decoration:none;">Service Areas</a></li>
-          <!-- RL-AUTO:footer-locations START -->
-<li><a href="hvac-bayshore-arts-district.html" style="color:rgba(255,255,255,.85);text-decoration:none;">Bayshore Arts District</a></li><li><a href="hvac-aqualane-shores.html" style="color:rgba(255,255,255,.85);text-decoration:none;">Aqualane Shores</a></li><li><a href="hvac-royal-harbor.html" style="color:rgba(255,255,255,.85);text-decoration:none;">Royal Harbor</a></li><li><a href="hvac-port-royal.html" style="color:rgba(255,255,255,.85);text-decoration:none;">Port Royal</a></li><li><a href="hvac-park-shore.html" style="color:rgba(255,255,255,.85);text-decoration:none;">Park Shore</a></li>
-<!-- RL-AUTO:footer-locations END -->
-          <li><a href="blog.html" style="color:rgba(255,255,255,.85);text-decoration:none;">Blog</a></li>
-            <li><a href="contact.html" style="color:rgba(255,255,255,.85);text-decoration:none;">Contact</a></li>
-          <li><a href="privacy-policy.html" style="color:rgba(255,255,255,.85);text-decoration:none;">Privacy Policy</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div style="margin-top:3rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.12);display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem;align-items:center;color:rgba(255,255,255,.6);font-size:.85rem;">
-      <p style="margin:0;">&copy; 2026 Premium AC Solutions. Licensed &amp; insured. All rights reserved.</p>
-      <p style="margin:0;display:flex;gap:1rem;align-items:center;">
-        <span style="display:inline-flex;gap:6px;align-items:center;">
-          <span style="font-family:var(--font-display);font-weight:700;color:var(--t6-green);">VISA</span>
-          <span style="font-family:var(--font-display);font-weight:700;color:var(--t6-green);">MC</span>
-          <span style="font-family:var(--font-display);font-weight:700;color:var(--t6-green);">AMEX</span>
-          <span style="font-family:var(--font-display);font-weight:700;color:var(--t6-green);">CASH</span>
-        </span>
+  <!-- Hero Header -->
+  <section class="site-section site-section--surface" style="padding-top:4rem;padding-bottom:4rem;border-bottom:1px solid var(--color-border);">
+    <div class="site-container" style="text-align:center;max-width:820px;margin:0 auto;">
+      <span class="badge badge-accent">Collier County Service Coverage</span>
+      <h1 style="margin-top:1rem;margin-bottom:1.25rem;">Air Conditioning Repair Service Areas in Naples, FL</h1>
+      <p class="text-lead">
+        Based at 4389 Enterprise Avenue in Naples, our fully equipped service vehicles provide same-day emergency cooling repairs, preventative tune-ups, and system replacements across all major communities in Collier County.
       </p>
+      <div style="display:flex;gap:1rem;justify-content:center;margin-top:2rem;flex-wrap:wrap;">
+        <a href="tel:+12396861066" class="btn btn-primary btn-lg">Call for Local Service: (239) 686-1066</a>
+        <a href="#contact" class="btn btn-outline btn-lg">Book Service Online</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Communities Grid -->
+  <section class="site-section">
+    <div class="site-container">
+      <div style="text-align:center;max-width:700px;margin:0 auto 3.5rem auto;">
+        <span class="badge badge-primary">Dedicated Community Coverage</span>
+        <h2 style="margin-top:0.85rem;margin-bottom:1rem;">Where Our Certified Technicians Operate</h2>
+        <p class="text-lead">
+          Our service territory covers coastal waterfront estates, golf communities, condominiums, and residential neighborhoods across Southwest Florida:
+        </p>
+      </div>
+
+      <div class="card-grid-3">
+        <!-- Area 1: Downtown & Old Naples -->
+        <div class="trust-card">
+          <div class="trust-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3 class="trust-card-title">Downtown &amp; Old Naples</h3>
+          <p class="trust-card-text">
+            Prompt AC repair and custom architectural cooling installations for historic homes, high-end condominiums, and boutique properties along 5th Avenue South and 3rd Street South.
+          </p>
+          <p style="font-size:0.85rem;color:var(--color-primary);font-weight:700;margin-top:1rem;margin-bottom:0;">
+            &bull; Rapid Dispatch: &lt; 45 Minutes
+          </p>
+        </div>
+
+        <!-- Area 2: North Naples & Pelican Bay -->
+        <div class="trust-card">
+          <div class="trust-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3 class="trust-card-title">North Naples &amp; Pelican Bay</h3>
+          <p class="trust-card-text">
+            Serving Vanderbilt Beach, Pelican Marsh, North Naples estates, and surrounding gated golf communities with high-SEER2 heat pump replacements and seasonal preventative care.
+          </p>
+          <p style="font-size:0.85rem;color:var(--color-primary);font-weight:700;margin-top:1rem;margin-bottom:0;">
+            &bull; Daily Scheduled Van Coverage
+          </p>
+        </div>
+
+        <!-- Area 3: Park Shore & The Moorings -->
+        <div class="trust-card">
+          <div class="trust-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3 class="trust-card-title">Park Shore &amp; The Moorings</h3>
+          <p class="trust-card-text">
+            Direct Gulf coast air creates aggressive salt corrosion. We specialize in marine-grade coil coatings, humidity extraction, and multi-zone air handler maintenance.
+          </p>
+          <p style="font-size:0.85rem;color:var(--color-primary);font-weight:700;margin-top:1rem;margin-bottom:0;">
+            &bull; Salt-Air Corrosion Protection
+          </p>
+        </div>
+
+        <!-- Area 4: Port Royal & Aqualane Shores -->
+        <div class="trust-card">
+          <div class="trust-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3 class="trust-card-title">Port Royal &amp; Aqualane Shores</h3>
+          <p class="trust-card-text">
+            Precision engineering for deep-water luxury canal estates. Multi-system zoning, whole-home dehumidifiers, and priority 24/7 emergency dispatch.
+          </p>
+          <p style="font-size:0.85rem;color:var(--color-primary);font-weight:700;margin-top:1rem;margin-bottom:0;">
+            &bull; Priority Estate Care
+          </p>
+        </div>
+
+        <!-- Area 5: Royal Harbor & Bayshore Arts -->
+        <div class="trust-card">
+          <div class="trust-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3 class="trust-card-title">Royal Harbor &amp; Bayshore Arts</h3>
+          <p class="trust-card-text">
+            Serving Naples Bay canal residences and the creative Bayshore Arts District with fast AC capacitor replacement, drain line clearing, and condenser fan motor repairs.
+          </p>
+          <p style="font-size:0.85rem;color:var(--color-primary);font-weight:700;margin-top:1rem;margin-bottom:0;">
+            &bull; Minutes from Enterprise Ave HQ
+          </p>
+        </div>
+
+        <!-- Area 6: East Naples, Golden Gate & Marco Island -->
+        <div class="trust-card">
+          <div class="trust-card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3 class="trust-card-title">East Naples &amp; Collier County</h3>
+          <p class="trust-card-text">
+            Dependable, honest cooling services for families and businesses in East Naples, Golden Gate City, Golden Gate Estates, and Marco Island.
+          </p>
+          <p style="font-size:0.85rem;color:var(--color-primary);font-weight:700;margin-top:1rem;margin-bottom:0;">
+            &bull; County-Wide Coverage
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Local Response Commitments Section -->
+  <section class="site-section site-section--navy">
+    <div class="site-container">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;">
+        <div>
+          <span class="badge badge-dark">Local Operating Standards</span>
+          <h2 style="margin-top:1rem;margin-bottom:1.25rem;">Our Service Guarantees for Collier County Residents</h2>
+          <p style="color:#cbd5e1;font-size:1.05rem;line-height:1.7;">
+            When you contact Premium AC Solutions, you are connecting directly with local technicians based right here in Naples, not a national call center broker:
+          </p>
+          <div style="display:flex;flex-direction:column;gap:1.25rem;margin-top:1.5rem;">
+            <div style="display:flex;gap:1rem;">
+              <span style="color:#38bdf8;font-weight:700;font-size:1.2rem;">&bull;</span>
+              <div>
+                <h4 style="color:#ffffff;margin-bottom:0.25rem;">Average Under 60-Minute Emergency Arrival</h4>
+                <p style="color:#94a3b8;font-size:0.92rem;margin:0;">Because our vans are stationed locally, we reach emergency cooling calls across Naples faster than out-of-town contractors.</p>
+              </div>
+            </div>
+            <div style="display:flex;gap:1rem;">
+              <span style="color:#38bdf8;font-weight:700;font-size:1.2rem;">&bull;</span>
+              <div>
+                <h4 style="color:#ffffff;margin-bottom:0.25rem;">Mobile Parts Inventory</h4>
+                <p style="color:#94a3b8;font-size:0.92rem;margin:0;">Our technicians stock universal run capacitors, contactors, fan motors, float switches, and EPA refrigerants to resolve issues on visit one.</p>
+              </div>
+            </div>
+            <div style="display:flex;gap:1rem;">
+              <span style="color:#38bdf8;font-weight:700;font-size:1.2rem;">&bull;</span>
+              <div>
+                <h4 style="color:#ffffff;margin-bottom:0.25rem;">Clean-Home Protocol</h4>
+                <p style="color:#94a3b8;font-size:0.92rem;margin:0;">Technicians wear protective shoe covers, lay down drop cloths around your indoor air handler, and leave your property immaculate.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div style="border-radius:var(--radius-xl);overflow:hidden;box-shadow:var(--shadow-xl);border:4px solid rgba(255,255,255,0.15);">
+            <img src="assets/images/map-card-north.jpg" alt="Naples service area vehicle coverage" loading="lazy" style="width:100%;height:420px;object-fit:cover;" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="site-section" id="contact">
+    <div class="site-container">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;">
+        <div>
+          <span class="badge badge-accent">Service Dispatch</span>
+          <h2 style="margin-top:0.85rem;margin-bottom:1.25rem;">Check Service Availability in Your Neighborhood</h2>
+          <p class="text-lead" style="margin-bottom:2rem;">
+            Need AC repair or a maintenance tune-up today? Call our Naples dispatch desk directly or submit your address below.
+          </p>
+          <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1.5rem;">
+            <div style="width:48px;height:48px;border-radius:10px;background:var(--color-primary-light);color:var(--color-primary-dark);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div>
+              <p style="margin:0;font-size:0.85rem;color:var(--color-text-muted);font-weight:600;text-transform:uppercase;">Naples Dispatch Desk</p>
+              <a href="tel:+12396861066" style="font-family:var(--font-display);font-size:1.35rem;font-weight:800;color:var(--color-navy);text-decoration:none;">(239) 686-1066</a>
+            </div>
+          </div>
+          <p style="color:var(--color-text-muted);font-size:0.92rem;">
+            Physical Office: 4389 Enterprise Avenue, Naples, FL 34104 &bull; Open Mon–Fri 7AM–7PM, Sat 8AM–4PM, 24/7 Emergency Service.
+          </p>
+        </div>
+
+        <div class="form-card">
+          <h3 style="margin-bottom:0.5rem;font-size:1.45rem;">Request Local Service</h3>
+          <p style="color:var(--color-text-muted);font-size:0.92rem;margin-bottom:1.5rem;">Serving all of Naples &amp; Collier County</p>
+
+          <form data-rl-lead action="#" method="POST">
+            <div class="form-group">
+              <label for="loc_name" class="form-label">Full Name *</label>
+              <input type="text" id="loc_name" name="name" required class="form-control" placeholder="Full Name" />
+            </div>
+
+            <div class="form-group">
+              <label for="loc_phone" class="form-label">Phone Number *</label>
+              <input type="tel" id="loc_phone" name="phone" required class="form-control" placeholder="(239) 000-0000" />
+            </div>
+
+            <div class="form-group">
+              <label for="loc_area" class="form-label">Your Naples Neighborhood / Community *</label>
+              <input type="text" id="loc_area" name="neighborhood" required class="form-control" placeholder="e.g. Park Shore, Pelican Bay, East Naples..." />
+            </div>
+
+            <div class="form-group">
+              <label for="loc_service" class="form-label">Service Type *</label>
+              <select id="loc_service" name="service" required class="form-control">
+                <option value="Emergency AC Repair">Emergency AC Repair (Not Cooling)</option>
+                <option value="AC Maintenance & Tune-Up">Seasonal Maintenance &amp; Tune-Up</option>
+                <option value="HVAC Replacement Estimate">New HVAC System Replacement</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width:100%;font-size:1.05rem;padding:0.95rem;">
+              Check Availability &amp; Dispatch
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="site-container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" style="display:inline-block;margin-bottom:1.25rem;">
+            <img src="assets/images/logo-white.svg" alt="Premium AC Solutions Logo" width="220" height="48" />
+          </a>
+          <p class="footer-desc">
+            Premium AC Solutions provides certified air conditioning repair, preventative seasonal maintenance, and high-efficiency HVAC replacements throughout Naples and Collier County, FL.
+          </p>
+          <div style="display:flex;gap:0.75rem;align-items:center;color:#38bdf8;font-size:0.85rem;font-weight:600;">
+            <span>EPA Certified</span> &bull;
+            <span>Licensed &amp; Insured</span> &bull;
+            <span>Same-Day Dispatch</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h3>Core Services</h3>
+          <ul class="footer-nav-list">
+            <li><a href="ac-not-cooling.html" class="footer-nav-link">Emergency AC Repair</a></li>
+            <li><a href="ac-maintenance-tune-up.html" class="footer-nav-link">AC Maintenance &amp; Tune-Up</a></li>
+            <li><a href="hvac-system-replacement.html" class="footer-nav-link">HVAC System Replacement</a></li>
+            <li><a href="services.html" class="footer-nav-link">All HVAC Services</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Service Areas</h3>
+          <ul class="footer-nav-list">
+            <li><a href="locations.html" class="footer-nav-link">Naples, FL</a></li>
+            <li><a href="locations.html" class="footer-nav-link">North Naples</a></li>
+            <li><a href="locations.html" class="footer-nav-link">East Naples</a></li>
+            <li><a href="locations.html" class="footer-nav-link">Park Shore &amp; Port Royal</a></li>
+            <li><a href="locations.html" class="footer-nav-link">Collier County Coverage</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Contact Details</h3>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            <div>
+              <a href="tel:+12396861066">(239) 686-1066</a>
+              <div style="font-size:0.8rem;color:#94a3b8;">24/7 Emergency Line</div>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <p style="margin:0;color:#cbd5e1;">4389 Enterprise Avenue</p>
+              <p style="margin:0;color:#cbd5e1;">Naples, FL 34104</p>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <div>
+              <p style="margin:0;color:#cbd5e1;">Mon–Fri: 7:00 AM – 7:00 PM</p>
+              <p style="margin:0;color:#cbd5e1;">Sat: 8:00 AM – 4:00 PM</p>
+              <p style="margin:0;color:#38bdf8;font-weight:600;">24/7 Emergency Available</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Premium AC Solutions. All rights reserved.
+        </div>
+        <div class="footer-bottom-links">
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="locations.html">Service Areas</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="sitemap.xml">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Sticky CTA Bar -->
+  <div class="mobile-sticky-cta" role="region" aria-label="Quick mobile action">
+    <div class="mobile-sticky-cta-inner">
+      <a href="tel:+12396861066" class="btn btn-primary" style="padding:0.75rem 1rem;font-size:0.92rem;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+        <span>Call (239) 686-1066</span>
+      </a>
+      <a href="#contact" class="btn btn-outline" style="padding:0.75rem 0.85rem;font-size:0.9rem;">
+        <span>Book Online</span>
+      </a>
     </div>
   </div>
-  <style>
-    @media (max-width: 900px) {
-      footer.t6-band-ink > .t6-container > div:first-child { grid-template-columns: 1fr 1fr !important; }
-    }
-    @media (max-width: 600px) {
-      footer.t6-band-ink > .t6-container > div:first-child { grid-template-columns: 1fr !important; }
-    }
-  </style>
-</footer>
-    
-<div class="t6-mobile-cta" role="region" aria-label="Mobile call to action">
-  <a href="tel:+12396861066" class="t6-mobile-cta__call">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
-    Call (239) 686-1066
-  </a>
-  <a href="contact.html" class="t6-mobile-cta__quote">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-    Get Quote
-  </a>
-</div>
-<div class="t6-rail" role="region" aria-label="Quick contact rail">
-  <a href="tel:+12396861066">
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
-    Call
-  </a>
-  <a href="contact.html">
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-    Quote
-  </a>
-</div>
-    <script src="https://unpkg.com/sal.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>

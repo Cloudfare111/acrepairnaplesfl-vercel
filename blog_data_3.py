@@ -162,7 +162,7 @@ Resetting your AC after a brief storm or power flicker is a simple, safe procedu
         "meta_title": "Does Your AC Have a Refrigerant Leak? Signs & Solutions | Naples, FL",
         "meta_desc": "Suspect an AC Freon or R-410A leak? Learn the 6 telltale signs, why 'topping off' is not enough under EPA regulations, and how pros locate micro-leaks in Florida.",
         "excerpt": "Air conditioners do not 'use up' Freon like gasoline in a car. If your refrigerant is low, your system has an active leak. Here is how to spot the signs and resolve it permanently.",
-        "primary_service": "refrigerant-freon-recharge.html",
+        "primary_service": "ac-not-cooling.html",
         "primary_service_anchor": "EPA-certified refrigerant leak detection and recharge",
         "content_html": """
 <p class="lead" style="font-size:1.18rem;line-height:1.75;color:var(--t6-ink);font-weight:500;">
@@ -271,7 +271,7 @@ Once the leak is located, you have two options depending on the age and conditio
 </p>
 <ul>
   <li><strong>Spot Repair / Brazing:</strong> If the leak is located at an accessible copper fitting or service valve, a technician can braze the joint with high-temperature silver alloy, replace the valve core, pull a deep vacuum to 500 microns, and weigh in a factory-fresh charge of refrigerant.</li>
-  <li><strong>Coil or System Replacement:</strong> If the leak is caused by extensive formicary corrosion across the indoor aluminum/copper evaporator coil on a system older than 8 to 10 years, replacing the entire coil or upgrading to a high-efficiency system is usually the most economical choice. Explore our <a href="../refrigerant-freon-recharge.html">refrigerant leak services</a> and <a href="../hvac-system-replacement.html">HVAC replacement options</a> for tailored guidance.</li>
+  <li><strong>Coil or System Replacement:</strong> If the leak is caused by extensive formicary corrosion across the indoor aluminum/copper evaporator coil on a system older than 8 to 10 years, replacing the entire coil or upgrading to a high-efficiency system is usually the most economical choice. Explore our <a href="../ac-not-cooling.html">refrigerant leak services</a> and <a href="../hvac-system-replacement.html">HVAC replacement options</a> for tailored guidance.</li>
 </ul>
 
 <div class="t6-cta-box">
@@ -297,7 +297,7 @@ Under the American Innovation and Manufacturing (AIM) Act, the EPA is phasing do
 
 <h2>Conclusion</h2>
 <p>
-An air conditioner with low refrigerant will never cool properly and risks complete compressor seizure if left running. If your vents blow warm or your evaporator coil shows ice, turn the system off and contact AC Repair Naples Fl for certified <a href="../refrigerant-freon-recharge.html">refrigerant leak repair and Freon recharge in Naples, FL</a>.
+An air conditioner with low refrigerant will never cool properly and risks complete compressor seizure if left running. If your vents blow warm or your evaporator coil shows ice, turn the system off and contact AC Repair Naples Fl for certified <a href="../ac-not-cooling.html">refrigerant leak repair and Freon recharge in Naples, FL</a>.
 </p>
 """
     },

@@ -71,7 +71,7 @@ In the outdoor condenser, the dual-run capacitor serves as an electrical battery
 
 <h3>Refrigerant Leaks and Low Pressure</h3>
 <p>
-Air conditioners operate on a closed, pressurized loop of refrigerant (such as R-410A). An air conditioner does not "consume" or burn through refrigerant over time. If your system is low on refrigerant, there is a physical hole or fracture in the copper tubing, service valves, or coil joints. Low refrigerant pressure prevents the evaporator coil from absorbing thermal energy from your indoor air. Furthermore, running a system low on refrigerant starves the compressor of the cool suction vapor it needs for internal lubrication and motor cooling, which can cause permanent mechanical seizure. If you suspect low pressure, you need professional <a href="../refrigerant-freon-recharge.html">refrigerant leak detection and recharge service</a>.
+Air conditioners operate on a closed, pressurized loop of refrigerant (such as R-410A). An air conditioner does not "consume" or burn through refrigerant over time. If your system is low on refrigerant, there is a physical hole or fracture in the copper tubing, service valves, or coil joints. Low refrigerant pressure prevents the evaporator coil from absorbing thermal energy from your indoor air. Furthermore, running a system low on refrigerant starves the compressor of the cool suction vapor it needs for internal lubrication and motor cooling, which can cause permanent mechanical seizure. If you suspect low pressure, you need professional <a href="../ac-not-cooling.html">refrigerant leak detection and recharge service</a>.
 </p>
 
 <h3>Dirty Outdoor Condenser Coils (Salt Air and Foliage)</h3>
@@ -81,7 +81,7 @@ In coastal communities like Aqualane Shores, Port Royal, and Park Shore, airborn
 
 <h3>Clogged Condensate Drain Line Safety Float Switch</h3>
 <p>
-In Southwest Florida, high atmospheric humidity means your evaporator coil wrings 10 to 20 gallons of water out of the air every single day. If the PVC condensate drain becomes plugged with algae slime or microbial sludge, water backs up into the primary drain pan. Modern installations feature a secondary overflow safety float switch (Safe-T-Switch) wired directly into the thermostat's 24V control circuit. Many smart thermostats or wiring configurations cut off the outdoor compressor to prevent ceiling water damage while keeping the indoor fan active. Check our guide on <a href="../condensate-drain-clog.html">condensate drain line clearing</a> to learn how this safety switch protects your home.
+In Southwest Florida, high atmospheric humidity means your evaporator coil wrings 10 to 20 gallons of water out of the air every single day. If the PVC condensate drain becomes plugged with algae slime or microbial sludge, water backs up into the primary drain pan. Modern installations feature a secondary overflow safety float switch (Safe-T-Switch) wired directly into the thermostat's 24V control circuit. Many smart thermostats or wiring configurations cut off the outdoor compressor to prevent ceiling water damage while keeping the indoor fan active. Check our guide on <a href="../ac-not-cooling.html">condensate drain line clearing</a> to learn how this safety switch protects your home.
 </p>
 
 <div class="t6-callout t6-callout--warning">
@@ -194,7 +194,7 @@ In Naples homes, air handlers and distribution ductwork are predominantly locate
 
 <h3>2. Restricted Metering Device (TXV or Piston)</h3>
 <p>
-The thermostatic expansion valve (TXV) is the precision component that meters high-pressure liquid refrigerant into the indoor evaporator coil, causing the rapid pressure drop that generates freezing temperatures. If moisture, copper particulate, or degraded compressor oil clogs the valve's tiny internal orifice, the coil is starved of refrigerant. The evaporator coil cannot achieve its design saturation temperature, and the air blown into your rooms remains warm and humid. Addressing this requires professional <a href="../compressor-valve-replacement.html">compressor valve and metering diagnosis</a>.
+The thermostatic expansion valve (TXV) is the precision component that meters high-pressure liquid refrigerant into the indoor evaporator coil, causing the rapid pressure drop that generates freezing temperatures. If moisture, copper particulate, or degraded compressor oil clogs the valve's tiny internal orifice, the coil is starved of refrigerant. The evaporator coil cannot achieve its design saturation temperature, and the air blown into your rooms remains warm and humid. Addressing this requires professional <a href="../ac-not-cooling.html">compressor valve and metering diagnosis</a>.
 </p>
 
 <h3>3. Aging Compressor Valve Failure</h3>
@@ -316,7 +316,7 @@ Living with an AC that refuses to blow cold air is unnecessary and damaging to y
         "meta_title": "Why Is My AC Leaking Water? Causes & Solutions | Naples, FL",
         "meta_desc": "Water leaking from your AC in Naples, FL? Discover why indoor air handlers leak, how to prevent ceiling damage, and emergency steps before mold forms.",
         "excerpt": "Discovering water dripping from your ceiling or pooling around your indoor AC unit is a homeowner emergency. Learn why air conditioners leak water in Florida and how to stop it.",
-        "primary_service": "condensate-drain-clog.html",
+        "primary_service": "ac-not-cooling.html",
         "primary_service_anchor": "emergency condensate drain clog clearing",
         "content_html": """
 <p class="lead" style="font-size:1.18rem;line-height:1.75;color:var(--t6-ink);font-weight:500;">
@@ -345,7 +345,7 @@ Under normal conditions, this moisture drips into an internal condensate pan, fl
 
 <h3>1. Algae and Biofilm Blockage in the Condensate Drain Line</h3>
 <p>
-By far the most common culprit in Collier County is a blocked primary condensate line. The inside of a dark, warm Florida drain pipe carrying constant moisture is an ideal breeding ground for algae, airborne mold spores, and Zooglea bacteria. Over several months, these micro-organisms produce a thick, gelatinous sludge that completely plugs the 3/4-inch PVC drain pipe. Water backs up into the drain pan and spills over the edges. Learn more in our comprehensive guide on <a href="../condensate-drain-clog.html">clearing condensate drain clogs</a>.
+By far the most common culprit in Collier County is a blocked primary condensate line. The inside of a dark, warm Florida drain pipe carrying constant moisture is an ideal breeding ground for algae, airborne mold spores, and Zooglea bacteria. Over several months, these micro-organisms produce a thick, gelatinous sludge that completely plugs the 3/4-inch PVC drain pipe. Water backs up into the drain pan and spills over the edges. Learn more in our comprehensive guide on <a href="../ac-not-cooling.html">clearing condensate drain clogs</a>.
 </p>
 
 <h3>2. Cracked or Corroded Condensate Drain Pan</h3>
@@ -425,7 +425,7 @@ Absolutely. A choked air filter restricts airflow across the evaporator coil, ca
 
 <h2>Conclusion</h2>
 <p>
-A leaking air conditioner is a clear warning sign of a clogged drain line, frozen coils, or damaged equipment. Shut the system down, remove standing water, and contact AC Repair Naples Fl for prompt, professional <a href="../condensate-drain-clog.html">condensate drain clog repair</a> across Naples and Collier County.
+A leaking air conditioner is a clear warning sign of a clogged drain line, frozen coils, or damaged equipment. Shut the system down, remove standing water, and contact AC Repair Naples Fl for prompt, professional <a href="../ac-not-cooling.html">condensate drain clog repair</a> across Naples and Collier County.
 </p>
 """
     }

@@ -13,43 +13,8 @@
       "permanent": true
     },
     {
-      "source": "/ac-not-cooling.html",
-      "destination": "/ac-not-cooling",
-      "permanent": true
-    },
-    {
-      "source": "/blog.html",
-      "destination": "/blog",
-      "permanent": true
-    },
-    {
-      "source": "/condensate-drain-clog.html",
-      "destination": "/condensate-drain-clog",
-      "permanent": true
-    },
-    {
-      "source": "/contact.html",
-      "destination": "/contact",
-      "permanent": true
-    },
-    {
-      "source": "/hvac-aqualane-shores.html",
-      "destination": "/hvac-aqualane-shores",
-      "permanent": true
-    },
-    {
-      "source": "/hvac-bayshore-arts-district.html",
-      "destination": "/hvac-bayshore-arts-district",
-      "permanent": true
-    },
-    {
-      "source": "/hvac-royal-harbor.html",
-      "destination": "/hvac-royal-harbor",
-      "permanent": true
-    },
-    {
-      "source": "/hvac-system-replacement.html",
-      "destination": "/hvac-system-replacement",
+      "source": "/services.html",
+      "destination": "/services",
       "permanent": true
     },
     {
@@ -58,8 +23,8 @@
       "permanent": true
     },
     {
-      "source": "/mini-split-repair.html",
-      "destination": "/mini-split-repair",
+      "source": "/contact.html",
+      "destination": "/contact",
       "permanent": true
     },
     {
@@ -68,23 +33,13 @@
       "permanent": true
     },
     {
-      "source": "/services.html",
-      "destination": "/services",
+      "source": "/blog.html",
+      "destination": "/blog",
       "permanent": true
     },
     {
-      "source": "/window-ac-installation.html",
-      "destination": "/window-ac-installation",
-      "permanent": true
-    },
-    {
-      "source": "/compressor-valve-replacement.html",
-      "destination": "/compressor-valve-replacement",
-      "permanent": true
-    },
-    {
-      "source": "/package-unit-repair.html",
-      "destination": "/package-unit-repair",
+      "source": "/ac-not-cooling.html",
+      "destination": "/ac-not-cooling",
       "permanent": true
     },
     {
@@ -93,22 +48,127 @@
       "permanent": true
     },
     {
+      "source": "/hvac-system-replacement.html",
+      "destination": "/hvac-system-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/condensate-drain-clog.html",
+      "destination": "/ac-not-cooling",
+      "permanent": true
+    },
+    {
+      "source": "/condensate-drain-clog",
+      "destination": "/ac-not-cooling",
+      "permanent": true
+    },
+    {
+      "source": "/compressor-valve-replacement.html",
+      "destination": "/ac-not-cooling",
+      "permanent": true
+    },
+    {
+      "source": "/compressor-valve-replacement",
+      "destination": "/ac-not-cooling",
+      "permanent": true
+    },
+    {
       "source": "/refrigerant-freon-recharge.html",
-      "destination": "/refrigerant-freon-recharge",
+      "destination": "/ac-not-cooling",
+      "permanent": true
+    },
+    {
+      "source": "/refrigerant-freon-recharge",
+      "destination": "/ac-not-cooling",
+      "permanent": true
+    },
+    {
+      "source": "/window-ac-installation.html",
+      "destination": "/hvac-system-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/window-ac-installation",
+      "destination": "/hvac-system-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/mini-split-repair.html",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/mini-split-repair",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/package-unit-repair.html",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/package-unit-repair",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/hvac-aqualane-shores.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/hvac-aqualane-shores",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/hvac-bayshore-arts-district.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/hvac-bayshore-arts-district",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/hvac-royal-harbor.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/hvac-royal-harbor",
+      "destination": "/locations",
       "permanent": true
     },
     {
       "source": "/hvac-port-royal.html",
-      "destination": "/hvac-port-royal",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/hvac-port-royal",
+      "destination": "/locations",
       "permanent": true
     },
     {
       "source": "/hvac-park-shore.html",
-      "destination": "/hvac-park-shore",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/hvac-park-shore",
+      "destination": "/locations",
       "permanent": true
     },
     {
       "source": "/landmarks.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/landmarks",
       "destination": "/locations",
       "permanent": true
     },
