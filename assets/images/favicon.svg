@@ -1,76 +1,77 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100%" height="100%">
   <defs>
-    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ef4444"/>
-      <stop offset="100%" stop-color="#b91c1c"/>
+    <!-- Background Gradient in updated Deep Navy / Ocean -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2438"/>
+      <stop offset="100%" stop-color="#071320"/>
     </linearGradient>
-    <filter id="subtleDrop" x="-10%" y="-10%" width="120%" height="125%">
-      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.25"/>
+
+    <!-- Coral wave gradient -->
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#C2410C"/>
+    </linearGradient>
+
+    <!-- Sun gradient -->
+    <linearGradient id="favSunGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EA580C"/>
+      <stop offset="60%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FCD34D"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.3"/>
     </filter>
   </defs>
 
-  <!-- Modern Rounded Squircle Container in Brand Red -->
-  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#redGrad)" filter="url(#subtleDrop)"/>
-  
-  <!-- Subtle Inner Border Highlight -->
-  <rect x="3.5" y="3.5" width="57" height="57" rx="14.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.5"/>
+  <!-- Rounded Squircle Base -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bgGrad)" filter="url(#shadow)"/>
+  <rect x="3.5" y="3.5" width="57" height="57" rx="12.5" fill="none" stroke="#38BDF8" stroke-opacity="0.35" stroke-width="1.5"/>
 
-  <!-- Iconic HVAC Cooling Mark in Pure Crisp White -->
-  <g transform="translate(32, 32)">
-    <!-- Central Cooling Core -->
-    <circle r="4.2" fill="#FFFFFF"/>
-    <circle r="2.2" fill="#dc2626"/>
+  <!-- Iconic 'P' Mark for Premium AC Solutions with Dual Climate Core -->
+  <g id="letterP" transform="translate(11, 8)">
+    <!-- White Base 'P' Shape -->
+    <!-- Vertical stem -->
+    <rect x="0" y="3" width="10" height="43" rx="2" fill="#FFFFFF"/>
+    <!-- Top horizontal bar -->
+    <path d="M 8,3 L 26,3 C 34,3 39,8 39,16 C 39,24 34,29 26,29 L 8,29 Z" fill="#FFFFFF"/>
 
-    <!-- 6 Snowflake / Fan Blades with Precision Chevron Arrows -->
-    <!-- Axis 1 (0 deg - Vertical Top) -->
-    <g>
-      <line x1="0" y1="-4.2" x2="0" y2="-21" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-      <path d="M-5.5 -13.5 L0 -19 L5.5 -13.5" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle cx="0" cy="-21" r="1.8" fill="#FFFFFF"/>
-      <path d="M-3.5 -8 L0 -11.5 L3.5 -8" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Inner Window of 'P' (Climate Core: Snowflake + Sun) -->
+    <!-- Window background inset -->
+    <rect x="9" y="8" width="20" height="15" rx="3" fill="#0B1928"/>
+
+    <!-- Left Half: Snowflake (Cooling) -->
+    <g id="favSnowflake" stroke="#38BDF8" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Main horizontal arm -->
+      <line x1="19" y1="15.5" x2="10.5" y2="15.5" stroke-width="1.8"/>
+      <path d="M 14,12.5 L 10.5,15.5 L 14,18.5" fill="none" stroke-width="1.4"/>
+      
+      <!-- Upper diagonal arm -->
+      <line x1="19" y1="15.5" x2="13" y2="10" stroke-width="1.8"/>
+      <line x1="15" y1="10" x2="13" y2="10" stroke-width="1.4"/>
+      <line x1="13" y1="12" x2="13" y2="10" stroke-width="1.4"/>
+
+      <!-- Lower diagonal arm -->
+      <line x1="19" y1="15.5" x2="13" y2="21" stroke-width="1.8"/>
+      <line x1="15" y1="21" x2="13" y2="21" stroke-width="1.4"/>
+      <line x1="13" y1="19" x2="13" y2="21" stroke-width="1.4"/>
     </g>
 
-    <!-- Axis 2 (60 deg) -->
-    <g transform="rotate(60)">
-      <line x1="0" y1="-4.2" x2="0" y2="-21" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-      <path d="M-5.5 -13.5 L0 -19 L5.5 -13.5" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle cx="0" cy="-21" r="1.8" fill="#FFFFFF"/>
-      <path d="M-3.5 -8 L0 -11.5 L3.5 -8" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Dividing Center Line -->
+    <line x1="19" y1="8" x2="19" y2="23" stroke="#0F2438" stroke-width="1.5"/>
+
+    <!-- Right Half: Rising Sun (Heating) -->
+    <g id="favSun">
+      <!-- Half Sun Disc -->
+      <path d="M 19,10 Q 25,12 25,15.5 Q 25,19 19,21 Z" fill="url(#favSunGrad)"/>
+      <!-- Sun Rays -->
+      <polygon points="26,11 29,9 27,13" fill="#F59E0B"/>
+      <polygon points="27,15.5 30,15.5 27,17" fill="#F59E0B"/>
+      <polygon points="26,19.5 29,21 27,18" fill="#F59E0B"/>
+      <polygon points="22,9 23,6 24,9.5" fill="#F59E0B"/>
     </g>
 
-    <!-- Axis 3 (120 deg) -->
-    <g transform="rotate(120)">
-      <line x1="0" y1="-4.2" x2="0" y2="-21" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-      <path d="M-5.5 -13.5 L0 -19 L5.5 -13.5" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle cx="0" cy="-21" r="1.8" fill="#FFFFFF"/>
-      <path d="M-3.5 -8 L0 -11.5 L3.5 -8" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </g>
-
-    <!-- Axis 4 (180 deg - Vertical Bottom) -->
-    <g transform="rotate(180)">
-      <line x1="0" y1="-4.2" x2="0" y2="-21" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-      <path d="M-5.5 -13.5 L0 -19 L5.5 -13.5" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle cx="0" cy="-21" r="1.8" fill="#FFFFFF"/>
-      <path d="M-3.5 -8 L0 -11.5 L3.5 -8" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </g>
-
-    <!-- Axis 5 (240 deg) -->
-    <g transform="rotate(240)">
-      <line x1="0" y1="-4.2" x2="0" y2="-21" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-      <path d="M-5.5 -13.5 L0 -19 L5.5 -13.5" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle cx="0" cy="-21" r="1.8" fill="#FFFFFF"/>
-      <path d="M-3.5 -8 L0 -11.5 L3.5 -8" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </g>
-
-    <!-- Axis 6 (300 deg) -->
-    <g transform="rotate(300)">
-      <line x1="0" y1="-4.2" x2="0" y2="-21" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-      <path d="M-5.5 -13.5 L0 -19 L5.5 -13.5" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle cx="0" cy="-21" r="1.8" fill="#FFFFFF"/>
-      <path d="M-3.5 -8 L0 -11.5 L3.5 -8" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </g>
-
-    <!-- Dynamic Cooling Wind Arc Overlay (White / Translucent) -->
-    <path d="M -16 14 A 20 20 0 0 1 18 -12" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="32 10" opacity="0.75"/>
+    <!-- Dynamic Flowing Airflow Swoosh Wave across the 'P' -->
+    <path d="M -2,27 C 6,23 15,22 22,25 C 31,29 38,37 42,35 C 37,42 27,37 18,33 C 10,29 3,31 -2,35 Z" fill="url(#waveGrad)"/>
   </g>
 </svg>
