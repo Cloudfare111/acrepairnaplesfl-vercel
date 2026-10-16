@@ -324,13 +324,13 @@ def render_blog_listing_html(depth=0):
     blog_schema = {
         "@context": "https://schema.org",
         "@type": "Blog",
-        "@id": "https://acrepairnaplesfl.com/blog#blog",
+        "@id": "https://acrepairnaplesfl-vercel.vercel.app/blog#blog",
         "name": "Premium AC Solutions Knowledge Hub & Blog",
         "description": "Expert air conditioning repair guides, troubleshooting advice, and seasonal cooling tips from licensed technicians in Naples, Florida.",
-        "url": "https://acrepairnaplesfl.com/blog",
+        "url": "https://acrepairnaplesfl-vercel.vercel.app/blog",
         "publisher": {
             "@type": "HVACBusiness",
-            "@id": "https://acrepairnaplesfl.com/#localbusiness",
+            "@id": "https://acrepairnaplesfl-vercel.vercel.app/#localbusiness",
             "name": "Premium AC Solutions",
             "telephone": "+12396861066",
             "address": {
@@ -346,7 +346,7 @@ def render_blog_listing_html(depth=0):
             {
                 "@type": "BlogPosting",
                 "headline": a["title"],
-                "url": f"https://acrepairnaplesfl.com/blog/{a['slug']}",
+                "url": f"https://acrepairnaplesfl-vercel.vercel.app/blog/{a['slug']}",
                 "datePublished": a["date_iso"],
                 "description": a["excerpt"]
             } for a in ALL_ARTICLES
@@ -376,13 +376,13 @@ def render_blog_listing_html(depth=0):
     content="Practical air conditioning troubleshooting guides, energy-saving tips, and HVAC maintenance advice from licensed cooling technicians in Naples, Florida.">
   <meta name="author" content="Premium AC Solutions">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://acrepairnaplesfl.com/blog">
+  <link rel="canonical" href="https://acrepairnaplesfl-vercel.vercel.app/blog">
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="HVAC &amp; AC Repair Blog Naples FL | Expert Homeowner Guides">
   <meta property="og:description"
     content="Practical air conditioning troubleshooting guides, energy-saving tips, and HVAC maintenance advice from licensed cooling technicians in Naples, Florida.">
-  <meta property="og:url" content="https://acrepairnaplesfl.com/blog">
+  <meta property="og:url" content="https://acrepairnaplesfl-vercel.vercel.app/blog">
   <meta property="og:image" content="{p}assets/images/services/ac-not-cooling.webp">
 
   <link rel="icon" type="image/svg+xml" href="{p}assets/images/favicon.svg" />
@@ -502,24 +502,24 @@ def render_article_page_html(art):
     article_schema = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "@id": f"https://acrepairnaplesfl.com/blog/{slug}#article",
+        "@id": f"https://acrepairnaplesfl-vercel.vercel.app/blog/{slug}#article",
         "headline": art["title"],
         "description": art["meta_desc"],
-        "url": f"https://acrepairnaplesfl.com/blog/{slug}",
+        "url": f"https://acrepairnaplesfl-vercel.vercel.app/blog/{slug}",
         "datePublished": art["date_iso"],
         "dateModified": art["date_iso"],
-        "image": f"https://acrepairnaplesfl.com/{art['image']}",
+        "image": f"https://acrepairnaplesfl-vercel.vercel.app/{art['image']}",
         "author": {
             "@type": "Organization",
             "name": "Premium AC Solutions Technical Editorial Team",
-            "url": "https://acrepairnaplesfl.com/about"
+            "url": "https://acrepairnaplesfl-vercel.vercel.app/about"
         },
         "publisher": {
             "@type": "HVACBusiness",
-            "@id": "https://acrepairnaplesfl.com/#localbusiness",
+            "@id": "https://acrepairnaplesfl-vercel.vercel.app/#localbusiness",
             "name": "Premium AC Solutions",
             "telephone": "+12396861066",
-            "url": "https://acrepairnaplesfl.com/",
+            "url": "https://acrepairnaplesfl-vercel.vercel.app/",
             "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "4389 Enterprise Avenue",
@@ -531,7 +531,7 @@ def render_article_page_html(art):
         },
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": f"https://acrepairnaplesfl.com/blog/{slug}"
+            "@id": f"https://acrepairnaplesfl-vercel.vercel.app/blog/{slug}"
         }
     }
     breadcrumb_schema = {
@@ -542,19 +542,19 @@ def render_article_page_html(art):
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://acrepairnaplesfl.com/"
+                "item": "https://acrepairnaplesfl-vercel.vercel.app/"
             },
             {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Blog",
-                "item": "https://acrepairnaplesfl.com/blog"
+                "item": "https://acrepairnaplesfl-vercel.vercel.app/blog"
             },
             {
                 "@type": "ListItem",
                 "position": 3,
                 "name": art["title"],
-                "item": f"https://acrepairnaplesfl.com/blog/{slug}"
+                "item": f"https://acrepairnaplesfl-vercel.vercel.app/blog/{slug}"
             }
         ]
     }
@@ -582,13 +582,13 @@ def render_article_page_html(art):
   <meta name="description" content="{art['meta_desc']}">
   <meta name="author" content="Premium AC Solutions">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://acrepairnaplesfl.com/blog/{slug}">
+  <link rel="canonical" href="https://acrepairnaplesfl-vercel.vercel.app/blog/{slug}">
 
   <meta property="og:type" content="article">
   <meta property="og:title" content="{art['meta_title']}">
   <meta property="og:description" content="{art['meta_desc']}">
-  <meta property="og:url" content="https://acrepairnaplesfl.com/blog/{slug}">
-  <meta property="og:image" content="https://acrepairnaplesfl.com/{art['image']}">
+  <meta property="og:url" content="https://acrepairnaplesfl-vercel.vercel.app/blog/{slug}">
+  <meta property="og:image" content="https://acrepairnaplesfl-vercel.vercel.app/{art['image']}">
   <meta property="article:published_time" content="{art['date_iso']}">
 
   <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg" />
@@ -782,9 +782,9 @@ def build_all():
         sitemap = f.read()
 
     sitemap_entries = []
-    if "https://acrepairnaplesfl.com/blog" not in sitemap:
+    if "https://acrepairnaplesfl-vercel.vercel.app/blog" not in sitemap:
         sitemap_entries.append("""    <url>
-        <loc>https://acrepairnaplesfl.com/blog</loc>
+        <loc>https://acrepairnaplesfl-vercel.vercel.app/blog</loc>
         <lastmod>2026-10-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -792,7 +792,7 @@ def build_all():
 
     for art in ALL_ARTICLES:
         slug = art['slug']
-        url = f"https://acrepairnaplesfl.com/blog/{slug}"
+        url = f"https://acrepairnaplesfl-vercel.vercel.app/blog/{slug}"
         if url not in sitemap:
             sitemap_entries.append(f"""    <url>
         <loc>{url}</loc>
